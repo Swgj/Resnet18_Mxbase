@@ -1,0 +1,1348 @@
+2022-07-28 16:10:50 [ INFO ] Synchronizing local project to remote host...
+2022-07-28 16:13:04 [ INFO ] Done.
+2022-07-28 16:13:04 [ INFO ] Execution command: export LANG=C && export DDK_PATH=/usr/local/Ascend/ascend-toolkit/5.1.RC1/x86_64-linux && export NPU_HOST_LIB=/usr/local/Ascend/ascend-toolkit/5.1.RC1/x86_64-linux/runtime/lib64/stub && export MX_SDK_HOME=/usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1 && export LD_LIBRARY_PATH=/usr/local/Ascend/ascend-toolkit/5.1.RC1/x86_64-linux/runtime/lib64/stub:${LD_LIBRARY_PATH} && mkdir -p /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/build/cmake-build-ascend-x86_64-linux-release  && cd /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/build/cmake-build-ascend-x86_64-linux-release && /usr/bin/cmake -DCMAKE_BUILD_TYPE=RELEASE -DCMAKE_MAKE_PROGRAM=/usr/bin/make -DCMAKE_C_COMPILER=gcc -DCMAKE_CXX_COMPILER=g++ -DCMAKE_BUILD_TYPE=Release -G "Unix Makefiles" /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/ && /usr/bin/cmake --build . --target all -- -j 9
+2022-07-28 16:13:06 [ INFO ] -- The C compiler identification is GNU 7.5.0
+2022-07-28 16:13:06 [ INFO ] -- The CXX compiler identification is GNU 7.5.0
+2022-07-28 16:13:06 [ INFO ] -- Check for working C compiler: /usr/bin/gcc
+2022-07-28 16:13:06 [ INFO ] -- Check for working C compiler: /usr/bin/gcc -- works
+2022-07-28 16:13:06 [ INFO ] -- Detecting C compiler ABI info
+2022-07-28 16:13:06 [ INFO ] -- Detecting C compiler ABI info - done
+2022-07-28 16:13:06 [ INFO ] -- Detecting C compile features
+2022-07-28 16:13:07 [ INFO ] -- Detecting C compile features - done
+2022-07-28 16:13:07 [ INFO ] -- Check for working CXX compiler: /usr/bin/g++
+2022-07-28 16:13:07 [ INFO ] -- Check for working CXX compiler: /usr/bin/g++ -- works
+2022-07-28 16:13:07 [ INFO ] -- Detecting CXX compiler ABI info
+2022-07-28 16:13:07 [ INFO ] -- Detecting CXX compiler ABI info - done
+2022-07-28 16:13:07 [ INFO ] -- Detecting CXX compile features
+2022-07-28 16:13:07 [ INFO ] -- Detecting CXX compile features - done
+2022-07-28 16:13:07 [ INFO ] -- env MX_SDK_HOME: /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1
+2022-07-28 16:13:07 [ ERROR ] CMake Error at src/CMakeLists.txt:15 (add_link_options):
+2022-07-28 16:13:07 [ INFO ]   Unknown CMake command "add_link_options".
+2022-07-28 16:13:07 [ INFO ] -- Configuring incomplete, errors occurred!
+2022-07-28 16:13:07 [ INFO ] See also "/tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/build/cmake-build-ascend-x86_64-linux-release/CMakeFiles/CMakeOutput.log".
+2022-07-28 16:13:07 [ INFO ] Execution failed with exit status: 1
+2022-07-28 16:13:07 [ INFO ] Getting results from remote host...
+2022-07-28 16:13:29 [ INFO ] Done.
+2022-07-28 16:16:01 [ INFO ] Synchronizing local project to remote host...
+2022-07-28 16:16:13 [ INFO ] Done.
+2022-07-28 16:16:13 [ INFO ] Execution command: export LANG=C && export DDK_PATH=/usr/local/Ascend/ascend-toolkit/5.1.RC1/x86_64-linux && export NPU_HOST_LIB=/usr/local/Ascend/ascend-toolkit/5.1.RC1/x86_64-linux/runtime/lib64/stub && export MX_SDK_HOME=/usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1 && export LD_LIBRARY_PATH=/usr/local/Ascend/ascend-toolkit/5.1.RC1/x86_64-linux/runtime/lib64/stub:${LD_LIBRARY_PATH} && mkdir -p /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/build/cmake-build-ascend-x86_64-linux-release  && cd /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/build/cmake-build-ascend-x86_64-linux-release && /usr/bin/cmake -DCMAKE_BUILD_TYPE=RELEASE -DCMAKE_MAKE_PROGRAM=/usr/bin/make -DCMAKE_C_COMPILER=gcc -DCMAKE_CXX_COMPILER=g++ -DCMAKE_BUILD_TYPE=Release -G "Unix Makefiles" /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/ && /usr/bin/cmake --build . --target all -- -j 9
+2022-07-28 16:16:15 [ INFO ] -- env MX_SDK_HOME: /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1
+2022-07-28 16:16:15 [ ERROR ] CMake Error at src/CMakeLists.txt:51 (target_link_libraries):
+2022-07-28 16:16:15 [ INFO ]   Cannot specify link libraries for target "main" which is not built by this
+2022-07-28 16:16:15 [ INFO ]   project.
+2022-07-28 16:16:15 [ INFO ] -- Configuring incomplete, errors occurred!
+2022-07-28 16:16:15 [ INFO ] See also "/tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/build/cmake-build-ascend-x86_64-linux-release/CMakeFiles/CMakeOutput.log".
+2022-07-28 16:16:15 [ INFO ] Execution failed with exit status: 1
+2022-07-28 16:16:15 [ INFO ] Getting results from remote host...
+2022-07-28 16:16:34 [ INFO ] Done.
+2022-07-28 16:17:26 [ INFO ] Synchronizing local project to remote host...
+2022-07-28 16:17:37 [ INFO ] Done.
+2022-07-28 16:17:37 [ INFO ] Execution command: export LANG=C && export DDK_PATH=/usr/local/Ascend/ascend-toolkit/5.1.RC1/x86_64-linux && export NPU_HOST_LIB=/usr/local/Ascend/ascend-toolkit/5.1.RC1/x86_64-linux/runtime/lib64/stub && export MX_SDK_HOME=/usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1 && export LD_LIBRARY_PATH=/usr/local/Ascend/ascend-toolkit/5.1.RC1/x86_64-linux/runtime/lib64/stub:${LD_LIBRARY_PATH} && mkdir -p /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/build/cmake-build-ascend-x86_64-linux-release  && cd /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/build/cmake-build-ascend-x86_64-linux-release && /usr/bin/cmake -DCMAKE_BUILD_TYPE=RELEASE -DCMAKE_MAKE_PROGRAM=/usr/bin/make -DCMAKE_C_COMPILER=gcc -DCMAKE_CXX_COMPILER=g++ -DCMAKE_BUILD_TYPE=Release -G "Unix Makefiles" /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/ && /usr/bin/cmake --build . --target all -- -j 9
+2022-07-28 16:17:39 [ INFO ] -- env MX_SDK_HOME: /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1
+2022-07-28 16:17:39 [ ERROR ] CMake Error at src/CMakeLists.txt:53 (install):
+2022-07-28 16:17:39 [ INFO ]   install TARGETS given target "main" which does not exist in this directory.
+2022-07-28 16:17:39 [ INFO ] -- Configuring incomplete, errors occurred!
+2022-07-28 16:17:39 [ INFO ] See also "/tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/build/cmake-build-ascend-x86_64-linux-release/CMakeFiles/CMakeOutput.log".
+2022-07-28 16:17:39 [ INFO ] Execution failed with exit status: 1
+2022-07-28 16:17:40 [ INFO ] Getting results from remote host...
+2022-07-28 16:17:59 [ INFO ] Done.
+2022-07-28 16:18:31 [ INFO ] Synchronizing local project to remote host...
+2022-07-28 16:18:53 [ INFO ] Done.
+2022-07-28 16:18:53 [ INFO ] Execution command: export LANG=C && export DDK_PATH=/usr/local/Ascend/ascend-toolkit/5.1.RC1/x86_64-linux && export NPU_HOST_LIB=/usr/local/Ascend/ascend-toolkit/5.1.RC1/x86_64-linux/runtime/lib64/stub && export MX_SDK_HOME=/usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1 && export LD_LIBRARY_PATH=/usr/local/Ascend/ascend-toolkit/5.1.RC1/x86_64-linux/runtime/lib64/stub:${LD_LIBRARY_PATH} && mkdir -p /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/build/cmake-build-ascend-x86_64-linux-release  && cd /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/build/cmake-build-ascend-x86_64-linux-release && /usr/bin/cmake -DCMAKE_BUILD_TYPE=RELEASE -DCMAKE_MAKE_PROGRAM=/usr/bin/make -DCMAKE_C_COMPILER=gcc -DCMAKE_CXX_COMPILER=g++ -DCMAKE_BUILD_TYPE=Release -G "Unix Makefiles" /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/ && /usr/bin/cmake --build . --target all -- -j 9
+2022-07-28 16:18:55 [ INFO ] -- env MX_SDK_HOME: /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1
+2022-07-28 16:18:55 [ INFO ] -- Configuring done
+2022-07-28 16:18:55 [ INFO ] -- Generating done
+2022-07-28 16:18:55 [ INFO ] -- Build files have been written to: /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/build/cmake-build-ascend-x86_64-linux-release
+2022-07-28 16:18:55 [ INFO ] Scanning dependencies of target Resnet18_Mxbase
+2022-07-28 16:18:55 [ INFO ] [ 33%] Building CXX object src/CMakeFiles/Resnet18_Mxbase.dir/main.cpp.o
+2022-07-28 16:18:55 [ INFO ] [ 66%] Building CXX object src/CMakeFiles/Resnet18_Mxbase.dir/Resnet18Classify.cpp.o
+2022-07-28 16:18:58 [ INFO ] /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp: In member function 'APP_ERROR Resnet18Classify::Init(const InitParam&)':
+2022-07-28 16:18:58 [ WARN ] /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:70:29: warning: 'virtual APP_ERROR MxBase::Resnet50PostProcess::Init(const std::map<std::basic_string<char>, std::shared_ptr<void> >&)' is deprecated: Use '' instead [-Wdeprecated-declarations]
+2022-07-28 16:18:58 [ INFO ]      ret = post_->Init(config);
+2022-07-28 16:18:58 [ INFO ]                              ^
+2022-07-28 16:18:58 [ INFO ] In file included from /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.h:25:0,
+2022-07-28 16:18:58 [ INFO ]                  from /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:24:
+2022-07-28 16:18:58 [ INFO ] /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/include/MxBase/postprocess/include/ClassPostProcessors/Resnet50PostProcess.h:24:36: note: declared here
+2022-07-28 16:18:58 [ INFO ]      SDK_DEPRECATED_FOR() APP_ERROR Init(const std::map<std::string, std::shared_ptr<void>> &postConfig) override;
+2022-07-28 16:18:58 [ INFO ]                                     ^~~~
+2022-07-28 16:19:02 [ INFO ] [100%] Linking CXX executable ../../../out/Resnet18_Mxbase
+2022-07-28 16:19:02 [ INFO ] [100%] Built target Resnet18_Mxbase
+2022-07-28 16:19:02 [ INFO ] Getting results from remote host...
+2022-07-28 16:19:30 [ INFO ] Done.
+2022-07-28 16:57:42 [ INFO ] Synchronizing local project to remote host...
+2022-07-28 16:57:55 [ INFO ] Done.
+2022-07-28 16:57:55 [ INFO ] Execution command: export LANG=C && export DDK_PATH=/usr/local/Ascend/ascend-toolkit/5.1.RC1/x86_64-linux && export NPU_HOST_LIB=/usr/local/Ascend/ascend-toolkit/5.1.RC1/x86_64-linux/runtime/lib64/stub && export MX_SDK_HOME=/usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1 && export LD_LIBRARY_PATH=/usr/local/Ascend/ascend-toolkit/5.1.RC1/x86_64-linux/runtime/lib64/stub:${LD_LIBRARY_PATH} && mkdir -p /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/build/cmake-build-ascend-x86_64-linux-release  && cd /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/build/cmake-build-ascend-x86_64-linux-release && /usr/bin/cmake -DCMAKE_BUILD_TYPE=RELEASE -DCMAKE_MAKE_PROGRAM=/usr/bin/make -DCMAKE_C_COMPILER=gcc -DCMAKE_CXX_COMPILER=g++ -DCMAKE_BUILD_TYPE=Release -G "Unix Makefiles" /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/ && /usr/bin/cmake --build . --target all -- -j 9
+2022-07-28 16:57:57 [ INFO ] -- env MX_SDK_HOME: /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1
+2022-07-28 16:57:57 [ INFO ] -- Configuring done
+2022-07-28 16:57:57 [ INFO ] -- Generating done
+2022-07-28 16:57:57 [ INFO ] -- Build files have been written to: /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/build/cmake-build-ascend-x86_64-linux-release
+2022-07-28 16:57:57 [ INFO ] Scanning dependencies of target Resnet18_Mxbase
+2022-07-28 16:57:57 [ INFO ] [ 33%] Building CXX object src/CMakeFiles/Resnet18_Mxbase.dir/main.cpp.o
+2022-07-28 16:58:01 [ INFO ] [ 66%] Linking CXX executable ../../../out/Resnet18_Mxbase
+2022-07-28 16:58:01 [ INFO ] [100%] Built target Resnet18_Mxbase
+2022-07-28 16:58:01 [ INFO ] Getting results from remote host...
+2022-07-28 16:58:25 [ INFO ] Done.
+2022-07-28 17:41:37 [ INFO ] Synchronizing local project to remote host...
+2022-07-28 17:41:52 [ INFO ] Done.
+2022-07-28 17:41:52 [ INFO ] Execution command: export LANG=C && export DDK_PATH=/usr/local/Ascend/ascend-toolkit/5.1.RC1/x86_64-linux && export NPU_HOST_LIB=/usr/local/Ascend/ascend-toolkit/5.1.RC1/x86_64-linux/runtime/lib64/stub && export MX_SDK_HOME=/usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1 && export LD_LIBRARY_PATH=/usr/local/Ascend/ascend-toolkit/5.1.RC1/x86_64-linux/runtime/lib64/stub:${LD_LIBRARY_PATH} && mkdir -p /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/build/cmake-build-ascend-x86_64-linux-release  && cd /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/build/cmake-build-ascend-x86_64-linux-release && /usr/bin/cmake -DCMAKE_BUILD_TYPE=RELEASE -DCMAKE_MAKE_PROGRAM=/usr/bin/make -DCMAKE_C_COMPILER=gcc -DCMAKE_CXX_COMPILER=g++ -DCMAKE_BUILD_TYPE=Release -G "Unix Makefiles" /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/ && /usr/bin/cmake --build . --target all -- -j 9
+2022-07-28 17:41:54 [ INFO ] -- env MX_SDK_HOME: /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1
+2022-07-28 17:41:54 [ INFO ] -- Configuring done
+2022-07-28 17:41:54 [ INFO ] -- Generating done
+2022-07-28 17:41:54 [ INFO ] -- Build files have been written to: /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/build/cmake-build-ascend-x86_64-linux-release
+2022-07-28 17:41:54 [ INFO ] Scanning dependencies of target Resnet18_Mxbase
+2022-07-28 17:41:54 [ INFO ] [ 33%] Building CXX object src/CMakeFiles/Resnet18_Mxbase.dir/main.cpp.o
+2022-07-28 17:41:54 [ INFO ] [ 66%] Building CXX object src/CMakeFiles/Resnet18_Mxbase.dir/Resnet18Classify.cpp.o
+2022-07-28 17:41:57 [ INFO ] /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp: In member function 'APP_ERROR Resnet18Classify::Init(const InitParam&)':
+2022-07-28 17:41:57 [ WARN ] /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:70:29: warning: 'virtual APP_ERROR MxBase::Resnet50PostProcess::Init(const std::map<std::basic_string<char>, std::shared_ptr<void> >&)' is deprecated: Use '' instead [-Wdeprecated-declarations]
+2022-07-28 17:41:57 [ INFO ]      ret = post_->Init(config);
+2022-07-28 17:41:57 [ INFO ]                              ^
+2022-07-28 17:41:57 [ INFO ] In file included from /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.h:25:0,
+2022-07-28 17:41:57 [ INFO ]                  from /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:24:
+2022-07-28 17:41:57 [ INFO ] /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/include/MxBase/postprocess/include/ClassPostProcessors/Resnet50PostProcess.h:24:36: note: declared here
+2022-07-28 17:41:57 [ INFO ]      SDK_DEPRECATED_FOR() APP_ERROR Init(const std::map<std::string, std::shared_ptr<void>> &postConfig) override;
+2022-07-28 17:41:57 [ INFO ]                                     ^~~~
+2022-07-28 17:42:00 [ INFO ] [100%] Linking CXX executable ../../../out/Resnet18_Mxbase
+2022-07-28 17:42:00 [ INFO ] [100%] Built target Resnet18_Mxbase
+2022-07-28 17:42:01 [ INFO ] Getting results from remote host...
+2022-07-28 17:42:24 [ INFO ] Done.
+2022-07-28 17:48:05 [ INFO ] Synchronizing local project to remote host...
+2022-07-28 17:48:17 [ INFO ] Done.
+2022-07-28 17:48:17 [ INFO ] Execution command: export LANG=C && export DDK_PATH=/usr/local/Ascend/ascend-toolkit/5.1.RC1/x86_64-linux && export NPU_HOST_LIB=/usr/local/Ascend/ascend-toolkit/5.1.RC1/x86_64-linux/runtime/lib64/stub && export MX_SDK_HOME=/usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1 && export LD_LIBRARY_PATH=/usr/local/Ascend/ascend-toolkit/5.1.RC1/x86_64-linux/runtime/lib64/stub:${LD_LIBRARY_PATH} && mkdir -p /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/build/cmake-build-ascend-x86_64-linux-release  && cd /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/build/cmake-build-ascend-x86_64-linux-release && /usr/bin/cmake -DCMAKE_BUILD_TYPE=RELEASE -DCMAKE_MAKE_PROGRAM=/usr/bin/make -DCMAKE_C_COMPILER=gcc -DCMAKE_CXX_COMPILER=g++ -DCMAKE_BUILD_TYPE=Release -G "Unix Makefiles" /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/ && /usr/bin/cmake --build . --target all -- -j 9
+2022-07-28 17:48:20 [ INFO ] -- env MX_SDK_HOME: /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1
+2022-07-28 17:48:20 [ INFO ] -- Configuring done
+2022-07-28 17:48:20 [ INFO ] -- Generating done
+2022-07-28 17:48:20 [ INFO ] -- Build files have been written to: /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/build/cmake-build-ascend-x86_64-linux-release
+2022-07-28 17:48:20 [ INFO ] Scanning dependencies of target Resnet18_Mxbase
+2022-07-28 17:48:20 [ INFO ] [ 33%] Building CXX object src/CMakeFiles/Resnet18_Mxbase.dir/main.cpp.o
+2022-07-28 17:48:23 [ INFO ] [ 66%] Linking CXX executable ../../../out/Resnet18_Mxbase
+2022-07-28 17:48:23 [ INFO ] [100%] Built target Resnet18_Mxbase
+2022-07-28 17:48:24 [ INFO ] Getting results from remote host...
+2022-07-28 17:48:47 [ INFO ] Done.
+2022-07-28 17:49:41 [ INFO ] Synchronizing local project to remote host...
+2022-07-28 17:49:52 [ INFO ] Done.
+2022-07-28 17:49:52 [ INFO ] Execution command: export LANG=C && export DDK_PATH=/usr/local/Ascend/ascend-toolkit/5.1.RC1/x86_64-linux && export NPU_HOST_LIB=/usr/local/Ascend/ascend-toolkit/5.1.RC1/x86_64-linux/runtime/lib64/stub && export MX_SDK_HOME=/usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1 && export LD_LIBRARY_PATH=/usr/local/Ascend/ascend-toolkit/5.1.RC1/x86_64-linux/runtime/lib64/stub:${LD_LIBRARY_PATH} && mkdir -p /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/build/cmake-build-ascend-x86_64-linux-release  && cd /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/build/cmake-build-ascend-x86_64-linux-release && /usr/bin/cmake -DCMAKE_BUILD_TYPE=RELEASE -DCMAKE_MAKE_PROGRAM=/usr/bin/make -DCMAKE_C_COMPILER=gcc -DCMAKE_CXX_COMPILER=g++ -DCMAKE_BUILD_TYPE=Release -G "Unix Makefiles" /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/ && /usr/bin/cmake --build . --target all -- -j 9
+2022-07-28 17:49:54 [ INFO ] -- env MX_SDK_HOME: /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1
+2022-07-28 17:49:54 [ INFO ] -- Configuring done
+2022-07-28 17:49:54 [ INFO ] -- Generating done
+2022-07-28 17:49:54 [ INFO ] -- Build files have been written to: /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/build/cmake-build-ascend-x86_64-linux-release
+2022-07-28 17:49:54 [ INFO ] [100%] Built target Resnet18_Mxbase
+2022-07-28 17:49:55 [ INFO ] Getting results from remote host...
+2022-07-28 17:50:20 [ INFO ] Done.
+2022-07-28 17:50:39 [ INFO ] Synchronizing local project to remote host...
+2022-07-28 17:50:51 [ INFO ] Done.
+2022-07-28 17:50:51 [ INFO ] Execution command: export LANG=C && export DDK_PATH=/usr/local/Ascend/ascend-toolkit/5.1.RC1/x86_64-linux && export NPU_HOST_LIB=/usr/local/Ascend/ascend-toolkit/5.1.RC1/x86_64-linux/runtime/lib64/stub && export MX_SDK_HOME=/usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1 && export LD_LIBRARY_PATH=/usr/local/Ascend/ascend-toolkit/5.1.RC1/x86_64-linux/runtime/lib64/stub:${LD_LIBRARY_PATH} && mkdir -p /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/build/cmake-build-ascend-x86_64-linux-release  && cd /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/build/cmake-build-ascend-x86_64-linux-release && /usr/bin/cmake -DCMAKE_BUILD_TYPE=RELEASE -DCMAKE_MAKE_PROGRAM=/usr/bin/make -DCMAKE_C_COMPILER=gcc -DCMAKE_CXX_COMPILER=g++ -DCMAKE_BUILD_TYPE=Release -G "Unix Makefiles" /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/ && /usr/bin/cmake --build . --target all -- -j 9
+2022-07-28 17:50:53 [ INFO ] -- env MX_SDK_HOME: /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1
+2022-07-28 17:50:53 [ INFO ] -- Configuring done
+2022-07-28 17:50:53 [ INFO ] -- Generating done
+2022-07-28 17:50:53 [ INFO ] -- Build files have been written to: /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/build/cmake-build-ascend-x86_64-linux-release
+2022-07-28 17:50:53 [ INFO ] Scanning dependencies of target Resnet18_Mxbase
+2022-07-28 17:50:53 [ INFO ] [ 33%] Building CXX object src/CMakeFiles/Resnet18_Mxbase.dir/main.cpp.o
+2022-07-28 17:50:57 [ INFO ] [ 66%] Linking CXX executable ../../../out/Resnet18_Mxbase
+2022-07-28 17:50:57 [ INFO ] [100%] Built target Resnet18_Mxbase
+2022-07-28 17:50:57 [ INFO ] Getting results from remote host...
+2022-07-28 17:50:59 [ ERROR ] Synchronize remote files to local failed: user canceled, download interrupt
+2022-07-28 17:51:12 [ INFO ] Synchronizing local project to remote host...
+2022-07-28 17:51:25 [ INFO ] Done.
+2022-07-28 17:51:25 [ INFO ] Execution command: export LANG=C && export DDK_PATH=/usr/local/Ascend/ascend-toolkit/5.1.RC1/x86_64-linux && export NPU_HOST_LIB=/usr/local/Ascend/ascend-toolkit/5.1.RC1/x86_64-linux/runtime/lib64/stub && export MX_SDK_HOME=/usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1 && export LD_LIBRARY_PATH=/usr/local/Ascend/ascend-toolkit/5.1.RC1/x86_64-linux/runtime/lib64/stub:${LD_LIBRARY_PATH} && mkdir -p /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/build/cmake-build-ascend-x86_64-linux-release  && cd /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/build/cmake-build-ascend-x86_64-linux-release && /usr/bin/cmake -DCMAKE_BUILD_TYPE=RELEASE -DCMAKE_MAKE_PROGRAM=/usr/bin/make -DCMAKE_C_COMPILER=gcc -DCMAKE_CXX_COMPILER=g++ -DCMAKE_BUILD_TYPE=Release -G "Unix Makefiles" /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/ && /usr/bin/cmake --build . --target all -- -j 9
+2022-07-28 17:51:27 [ INFO ] -- env MX_SDK_HOME: /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1
+2022-07-28 17:51:27 [ INFO ] -- Configuring done
+2022-07-28 17:51:27 [ INFO ] -- Generating done
+2022-07-28 17:51:27 [ INFO ] -- Build files have been written to: /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/build/cmake-build-ascend-x86_64-linux-release
+2022-07-28 17:51:27 [ INFO ] Scanning dependencies of target Resnet18_Mxbase
+2022-07-28 17:51:27 [ INFO ] [ 33%] Building CXX object src/CMakeFiles/Resnet18_Mxbase.dir/main.cpp.o
+2022-07-28 17:51:31 [ INFO ] [ 66%] Linking CXX executable ../../../out/Resnet18_Mxbase
+2022-07-28 17:51:31 [ INFO ] [100%] Built target Resnet18_Mxbase
+2022-07-28 17:51:31 [ INFO ] Getting results from remote host...
+2022-07-28 17:51:55 [ INFO ] Done.
+2022-07-28 17:53:46 [ INFO ] Synchronizing local project to remote host...
+2022-07-28 17:53:59 [ INFO ] Done.
+2022-07-28 17:53:59 [ INFO ] Execution command: export LANG=C && export DDK_PATH=/usr/local/Ascend/ascend-toolkit/5.1.RC1/x86_64-linux && export NPU_HOST_LIB=/usr/local/Ascend/ascend-toolkit/5.1.RC1/x86_64-linux/runtime/lib64/stub && export MX_SDK_HOME=/usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1 && export LD_LIBRARY_PATH=/usr/local/Ascend/ascend-toolkit/5.1.RC1/x86_64-linux/runtime/lib64/stub:${LD_LIBRARY_PATH} && mkdir -p /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/build/cmake-build-ascend-x86_64-linux-release  && cd /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/build/cmake-build-ascend-x86_64-linux-release && /usr/bin/cmake -DCMAKE_BUILD_TYPE=RELEASE -DCMAKE_MAKE_PROGRAM=/usr/bin/make -DCMAKE_C_COMPILER=gcc -DCMAKE_CXX_COMPILER=g++ -DCMAKE_BUILD_TYPE=Release -G "Unix Makefiles" /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/ && /usr/bin/cmake --build . --target all -- -j 9
+2022-07-28 17:54:01 [ INFO ] -- env MX_SDK_HOME: /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1
+2022-07-28 17:54:01 [ INFO ] -- Configuring done
+2022-07-28 17:54:01 [ INFO ] -- Generating done
+2022-07-28 17:54:01 [ INFO ] -- Build files have been written to: /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/build/cmake-build-ascend-x86_64-linux-release
+2022-07-28 17:54:01 [ INFO ] Scanning dependencies of target Resnet18_Mxbase
+2022-07-28 17:54:01 [ INFO ] [ 33%] Building CXX object src/CMakeFiles/Resnet18_Mxbase.dir/Resnet18Classify.cpp.o
+2022-07-28 17:54:03 [ INFO ] /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp: In member function 'APP_ERROR Resnet18Classify::Init(const InitParam&)':
+2022-07-28 17:54:03 [ WARN ] /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:70:29: warning: 'virtual APP_ERROR MxBase::Resnet50PostProcess::Init(const std::map<std::basic_string<char>, std::shared_ptr<void> >&)' is deprecated: Use '' instead [-Wdeprecated-declarations]
+2022-07-28 17:54:03 [ INFO ]      ret = post_->Init(config);
+2022-07-28 17:54:03 [ INFO ]                              ^
+2022-07-28 17:54:03 [ INFO ] In file included from /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.h:25:0,
+2022-07-28 17:54:03 [ INFO ]                  from /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:24:
+2022-07-28 17:54:03 [ INFO ] /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/include/MxBase/postprocess/include/ClassPostProcessors/Resnet50PostProcess.h:24:36: note: declared here
+2022-07-28 17:54:03 [ INFO ]      SDK_DEPRECATED_FOR() APP_ERROR Init(const std::map<std::string, std::shared_ptr<void>> &postConfig) override;
+2022-07-28 17:54:03 [ INFO ]                                     ^~~~
+2022-07-28 17:54:05 [ INFO ] [ 66%] Linking CXX executable ../../../out/Resnet18_Mxbase
+2022-07-28 17:54:05 [ INFO ] [100%] Built target Resnet18_Mxbase
+2022-07-28 17:54:06 [ INFO ] Getting results from remote host...
+2022-07-28 17:54:28 [ INFO ] Done.
+2022-07-28 17:59:00 [ INFO ] Synchronizing local project to remote host...
+2022-07-28 17:59:14 [ INFO ] Done.
+2022-07-28 17:59:14 [ INFO ] Execution command: export LANG=C && export DDK_PATH=/usr/local/Ascend/ascend-toolkit/5.1.RC1/x86_64-linux && export NPU_HOST_LIB=/usr/local/Ascend/ascend-toolkit/5.1.RC1/x86_64-linux/runtime/lib64/stub && export MX_SDK_HOME=/usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1 && export LD_LIBRARY_PATH=/usr/local/Ascend/ascend-toolkit/5.1.RC1/x86_64-linux/runtime/lib64/stub:${LD_LIBRARY_PATH} && mkdir -p /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/build/cmake-build-ascend-x86_64-linux-release  && cd /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/build/cmake-build-ascend-x86_64-linux-release && /usr/bin/cmake -DCMAKE_BUILD_TYPE=RELEASE -DCMAKE_MAKE_PROGRAM=/usr/bin/make -DCMAKE_C_COMPILER=gcc -DCMAKE_CXX_COMPILER=g++ -DCMAKE_BUILD_TYPE=Release -G "Unix Makefiles" /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/ && /usr/bin/cmake --build . --target all -- -j 9
+2022-07-28 17:59:16 [ INFO ] -- env MX_SDK_HOME: /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1
+2022-07-28 17:59:16 [ INFO ] -- Configuring done
+2022-07-28 17:59:16 [ INFO ] -- Generating done
+2022-07-28 17:59:16 [ INFO ] -- Build files have been written to: /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/build/cmake-build-ascend-x86_64-linux-release
+2022-07-28 17:59:16 [ INFO ] Scanning dependencies of target Resnet18_Mxbase
+2022-07-28 17:59:16 [ INFO ] [ 33%] Building CXX object src/CMakeFiles/Resnet18_Mxbase.dir/Resnet18Classify.cpp.o
+2022-07-28 17:59:18 [ INFO ] /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp: In member function 'APP_ERROR Resnet18Classify::Init(const InitParam&)':
+2022-07-28 17:59:18 [ WARN ] /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:70:29: warning: 'virtual APP_ERROR MxBase::Resnet50PostProcess::Init(const std::map<std::basic_string<char>, std::shared_ptr<void> >&)' is deprecated: Use '' instead [-Wdeprecated-declarations]
+2022-07-28 17:59:18 [ INFO ]      ret = post_->Init(config);
+2022-07-28 17:59:18 [ INFO ]                              ^
+2022-07-28 17:59:18 [ INFO ] In file included from /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.h:25:0,
+2022-07-28 17:59:18 [ INFO ]                  from /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:24:
+2022-07-28 17:59:18 [ INFO ] /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/include/MxBase/postprocess/include/ClassPostProcessors/Resnet50PostProcess.h:24:36: note: declared here
+2022-07-28 17:59:18 [ INFO ]      SDK_DEPRECATED_FOR() APP_ERROR Init(const std::map<std::string, std::shared_ptr<void>> &postConfig) override;
+2022-07-28 17:59:18 [ INFO ]                                     ^~~~
+2022-07-28 17:59:18 [ INFO ] /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp: In member function 'APP_ERROR Resnet18Classify::ShowResult(const string&, std::vector<std::vector<MxBase::ClassInfo> >&)':
+2022-07-28 17:59:18 [ ERROR ] /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:210:33: error: no match for 'operator+' (operand types are 'const char [11]' and 'const std::vector<MxBase::ClassInfo>')
+2022-07-28 17:59:18 [ INFO ]          LogInfo << "Original: " + clsInfos;
+2022-07-28 17:59:18 [ INFO ]                     ~~~~~~~~~~~~~^~~~~~~~~~
+2022-07-28 17:59:18 [ INFO ] In file included from /usr/include/c++/7/deque:64:0,
+2022-07-28 17:59:18 [ INFO ]                  from /usr/include/c++/7/queue:60,
+2022-07-28 17:59:18 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/opensource/include/opencv4/opencv2/stitching/detail/util_inl.hpp:46,
+2022-07-28 17:59:18 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/opensource/include/opencv4/opencv2/stitching/detail/util.hpp:119,
+2022-07-28 17:59:18 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/opensource/include/opencv4/opencv2/stitching/detail/motion_estimators.hpp:48,
+2022-07-28 17:59:18 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/opensource/include/opencv4/opencv2/stitching.hpp:50,
+2022-07-28 17:59:18 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/opensource/include/opencv4/opencv2/opencv.hpp:86,
+2022-07-28 17:59:18 [ INFO ]                  from /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.h:23,
+2022-07-28 17:59:18 [ INFO ]                  from /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:24:
+2022-07-28 17:59:18 [ INFO ] /usr/include/c++/7/bits/stl_deque.h:374:5: note: candidate: template<class _Tp, class _Ref, class _Ptr> std::_Deque_iterator<_Tp, _Ref, _Ptr> std::operator+(std::ptrdiff_t, const std::_Deque_iterator<_Tp, _Ref, _Ptr>&)
+2022-07-28 17:59:18 [ INFO ]      operator+(ptrdiff_t __n, const _Deque_iterator<_Tp, _Ref, _Ptr>& __x)
+2022-07-28 17:59:18 [ INFO ]      ^~~~~~~~
+2022-07-28 17:59:18 [ INFO ] /usr/include/c++/7/bits/stl_deque.h:374:5: note:   template argument deduction/substitution failed:
+2022-07-28 17:59:18 [ INFO ] /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:210:35: note:   'const std::vector<MxBase::ClassInfo>' is not derived from 'const std::_Deque_iterator<_Tp, _Ref, _Ptr>'
+2022-07-28 17:59:18 [ INFO ]          LogInfo << "Original: " + clsInfos;
+2022-07-28 17:59:18 [ INFO ]                                    ^~~~~~~~
+2022-07-28 17:59:18 [ INFO ] In file included from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/opensource/include/opencv4/opencv2/core/cvstd.inl.hpp:47:0,
+2022-07-28 17:59:18 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/opensource/include/opencv4/opencv2/core.hpp:3306,
+2022-07-28 17:59:18 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/opensource/include/opencv4/opencv2/opencv.hpp:52,
+2022-07-28 17:59:18 [ INFO ]                  from /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.h:23,
+2022-07-28 17:59:18 [ INFO ]                  from /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:24:
+2022-07-28 17:59:18 [ INFO ] /usr/include/c++/7/complex:445:5: note: candidate: template<class _Tp> std::complex<_Tp> std::operator+(const std::complex<_Tp>&)
+2022-07-28 17:59:18 [ INFO ]      operator+(const complex<_Tp>& __x)
+2022-07-28 17:59:18 [ INFO ]      ^~~~~~~~
+2022-07-28 17:59:18 [ INFO ] /usr/include/c++/7/complex:445:5: note:   template argument deduction/substitution failed:
+2022-07-28 17:59:18 [ INFO ] /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:210:35: note:   mismatched types 'const std::complex<_Tp>' and 'const char [11]'
+2022-07-28 17:59:18 [ INFO ]          LogInfo << "Original: " + clsInfos;
+2022-07-28 17:59:18 [ INFO ]                                    ^~~~~~~~
+2022-07-28 17:59:18 [ INFO ] In file included from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/opensource/include/opencv4/opencv2/core/cvstd.inl.hpp:47:0,
+2022-07-28 17:59:18 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/opensource/include/opencv4/opencv2/core.hpp:3306,
+2022-07-28 17:59:18 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/opensource/include/opencv4/opencv2/opencv.hpp:52,
+2022-07-28 17:59:18 [ INFO ]                  from /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.h:23,
+2022-07-28 17:59:18 [ INFO ]                  from /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:24:
+2022-07-28 17:59:18 [ INFO ] /usr/include/c++/7/complex:344:5: note: candidate: template<class _Tp> std::complex<_Tp> std::operator+(const _Tp&, const std::complex<_Tp>&)
+2022-07-28 17:59:18 [ INFO ]      operator+(const _Tp& __x, const complex<_Tp>& __y)
+2022-07-28 17:59:18 [ INFO ]      ^~~~~~~~
+2022-07-28 17:59:18 [ INFO ] /usr/include/c++/7/complex:344:5: note:   template argument deduction/substitution failed:
+2022-07-28 17:59:18 [ INFO ] /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:210:35: note:   'const std::vector<MxBase::ClassInfo>' is not derived from 'const std::complex<_Tp>'
+2022-07-28 17:59:18 [ INFO ]          LogInfo << "Original: " + clsInfos;
+2022-07-28 17:59:18 [ INFO ]                                    ^~~~~~~~
+2022-07-28 17:59:18 [ INFO ] In file included from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/opensource/include/opencv4/opencv2/core/cvstd.inl.hpp:47:0,
+2022-07-28 17:59:18 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/opensource/include/opencv4/opencv2/core.hpp:3306,
+2022-07-28 17:59:18 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/opensource/include/opencv4/opencv2/opencv.hpp:52,
+2022-07-28 17:59:18 [ INFO ]                  from /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.h:23,
+2022-07-28 17:59:18 [ INFO ]                  from /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:24:
+2022-07-28 17:59:18 [ INFO ] /usr/include/c++/7/complex:335:5: note: candidate: template<class _Tp> std::complex<_Tp> std::operator+(const std::complex<_Tp>&, const _Tp&)
+2022-07-28 17:59:18 [ INFO ]      operator+(const complex<_Tp>& __x, const _Tp& __y)
+2022-07-28 17:59:18 [ INFO ]      ^~~~~~~~
+2022-07-28 17:59:18 [ INFO ] /usr/include/c++/7/complex:335:5: note:   template argument deduction/substitution failed:
+2022-07-28 17:59:18 [ INFO ] /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:210:35: note:   mismatched types 'const std::complex<_Tp>' and 'const char [11]'
+2022-07-28 17:59:18 [ INFO ]          LogInfo << "Original: " + clsInfos;
+2022-07-28 17:59:18 [ INFO ]                                    ^~~~~~~~
+2022-07-28 17:59:18 [ INFO ] In file included from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/opensource/include/opencv4/opencv2/core/cvstd.inl.hpp:47:0,
+2022-07-28 17:59:18 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/opensource/include/opencv4/opencv2/core.hpp:3306,
+2022-07-28 17:59:18 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/opensource/include/opencv4/opencv2/opencv.hpp:52,
+2022-07-28 17:59:18 [ INFO ]                  from /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.h:23,
+2022-07-28 17:59:18 [ INFO ]                  from /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:24:
+2022-07-28 17:59:18 [ INFO ] /usr/include/c++/7/complex:326:5: note: candidate: template<class _Tp> std::complex<_Tp> std::operator+(const std::complex<_Tp>&, const std::complex<_Tp>&)
+2022-07-28 17:59:18 [ INFO ]      operator+(const complex<_Tp>& __x, const complex<_Tp>& __y)
+2022-07-28 17:59:18 [ INFO ]      ^~~~~~~~
+2022-07-28 17:59:18 [ INFO ] /usr/include/c++/7/complex:326:5: note:   template argument deduction/substitution failed:
+2022-07-28 17:59:18 [ INFO ] /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:210:35: note:   mismatched types 'const std::complex<_Tp>' and 'const char [11]'
+2022-07-28 17:59:18 [ INFO ]          LogInfo << "Original: " + clsInfos;
+2022-07-28 17:59:18 [ INFO ]                                    ^~~~~~~~
+2022-07-28 17:59:18 [ INFO ] In file included from /usr/include/c++/7/vector:65:0,
+2022-07-28 17:59:18 [ INFO ]                  from /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:22:
+2022-07-28 17:59:18 [ INFO ] /usr/include/c++/7/bits/stl_bvector.h:387:3: note: candidate: std::_Bit_const_iterator std::operator+(std::ptrdiff_t, const std::_Bit_const_iterator&)
+2022-07-28 17:59:18 [ INFO ]    operator+(ptrdiff_t __n, const _Bit_const_iterator& __x)
+2022-07-28 17:59:18 [ INFO ]    ^~~~~~~~
+2022-07-28 17:59:18 [ INFO ] /usr/include/c++/7/bits/stl_bvector.h:387:3: note:   no known conversion for argument 2 from 'const std::vector<MxBase::ClassInfo>' to 'const std::_Bit_const_iterator&'
+2022-07-28 17:59:18 [ INFO ] /usr/include/c++/7/bits/stl_bvector.h:297:3: note: candidate: std::_Bit_iterator std::operator+(std::ptrdiff_t, const std::_Bit_iterator&)
+2022-07-28 17:59:18 [ INFO ]    operator+(ptrdiff_t __n, const _Bit_iterator& __x)
+2022-07-28 17:59:18 [ INFO ]    ^~~~~~~~
+2022-07-28 17:59:18 [ INFO ] /usr/include/c++/7/bits/stl_bvector.h:297:3: note:   no known conversion for argument 2 from 'const std::vector<MxBase::ClassInfo>' to 'const std::_Bit_iterator&'
+2022-07-28 17:59:18 [ INFO ] In file included from /usr/include/c++/7/string:52:0,
+2022-07-28 17:59:18 [ INFO ]                  from /usr/include/c++/7/bits/locale_classes.h:40,
+2022-07-28 17:59:18 [ INFO ]                  from /usr/include/c++/7/bits/ios_base.h:41,
+2022-07-28 17:59:18 [ INFO ]                  from /usr/include/c++/7/ios:42,
+2022-07-28 17:59:18 [ INFO ]                  from /usr/include/c++/7/ostream:38,
+2022-07-28 17:59:18 [ INFO ]                  from /usr/include/c++/7/iostream:39,
+2022-07-28 17:59:18 [ INFO ]                  from /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:18:
+2022-07-28 17:59:18 [ INFO ] /usr/include/c++/7/bits/basic_string.h:5995:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> std::basic_string<_CharT, _Traits, _Alloc> std::operator+(std::basic_string<_CharT, _Traits, _Alloc>&&, _CharT)
+2022-07-28 17:59:18 [ INFO ]      operator+(basic_string<_CharT, _Traits, _Alloc>&& __lhs,
+2022-07-28 17:59:18 [ INFO ]      ^~~~~~~~
+2022-07-28 17:59:18 [ INFO ] /usr/include/c++/7/bits/basic_string.h:5995:5: note:   template argument deduction/substitution failed:
+2022-07-28 17:59:18 [ INFO ] /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:210:35: note:   mismatched types 'std::basic_string<_CharT, _Traits, _Alloc>' and 'const char [11]'
+2022-07-28 17:59:18 [ INFO ]          LogInfo << "Original: " + clsInfos;
+2022-07-28 17:59:18 [ INFO ]                                    ^~~~~~~~
+2022-07-28 17:59:18 [ INFO ] In file included from /usr/include/c++/7/string:52:0,
+2022-07-28 17:59:18 [ INFO ]                  from /usr/include/c++/7/bits/locale_classes.h:40,
+2022-07-28 17:59:18 [ INFO ]                  from /usr/include/c++/7/bits/ios_base.h:41,
+2022-07-28 17:59:18 [ INFO ]                  from /usr/include/c++/7/ios:42,
+2022-07-28 17:59:18 [ INFO ]                  from /usr/include/c++/7/ostream:38,
+2022-07-28 17:59:18 [ INFO ]                  from /usr/include/c++/7/iostream:39,
+2022-07-28 17:59:18 [ INFO ]                  from /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:18:
+2022-07-28 17:59:18 [ INFO ] /usr/include/c++/7/bits/basic_string.h:5989:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> std::basic_string<_CharT, _Traits, _Alloc> std::operator+(std::basic_string<_CharT, _Traits, _Alloc>&&, const _CharT*)
+2022-07-28 17:59:18 [ INFO ]      operator+(basic_string<_CharT, _Traits, _Alloc>&& __lhs,
+2022-07-28 17:59:18 [ INFO ]      ^~~~~~~~
+2022-07-28 17:59:18 [ INFO ] /usr/include/c++/7/bits/basic_string.h:5989:5: note:   template argument deduction/substitution failed:
+2022-07-28 17:59:18 [ INFO ] /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:210:35: note:   mismatched types 'std::basic_string<_CharT, _Traits, _Alloc>' and 'const char [11]'
+2022-07-28 17:59:18 [ INFO ]          LogInfo << "Original: " + clsInfos;
+2022-07-28 17:59:18 [ INFO ]                                    ^~~~~~~~
+2022-07-28 17:59:18 [ INFO ] In file included from /usr/include/c++/7/string:52:0,
+2022-07-28 17:59:18 [ INFO ]                  from /usr/include/c++/7/bits/locale_classes.h:40,
+2022-07-28 17:59:18 [ INFO ]                  from /usr/include/c++/7/bits/ios_base.h:41,
+2022-07-28 17:59:18 [ INFO ]                  from /usr/include/c++/7/ios:42,
+2022-07-28 17:59:18 [ INFO ]                  from /usr/include/c++/7/ostream:38,
+2022-07-28 17:59:18 [ INFO ]                  from /usr/include/c++/7/iostream:39,
+2022-07-28 17:59:18 [ INFO ]                  from /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:18:
+2022-07-28 17:59:18 [ INFO ] /usr/include/c++/7/bits/basic_string.h:5983:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> std::basic_string<_CharT, _Traits, _Alloc> std::operator+(_CharT, std::basic_string<_CharT, _Traits, _Alloc>&&)
+2022-07-28 17:59:18 [ INFO ]      operator+(_CharT __lhs,
+2022-07-28 17:59:18 [ INFO ]      ^~~~~~~~
+2022-07-28 17:59:18 [ INFO ] /usr/include/c++/7/bits/basic_string.h:5983:5: note:   template argument deduction/substitution failed:
+2022-07-28 17:59:18 [ INFO ] /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:210:35: note:   types 'std::basic_string<_CharT, _Traits, _Alloc>' and 'const std::vector<MxBase::ClassInfo>' have incompatible cv-qualifiers
+2022-07-28 17:59:18 [ INFO ]          LogInfo << "Original: " + clsInfos;
+2022-07-28 17:59:18 [ INFO ]                                    ^~~~~~~~
+2022-07-28 17:59:18 [ INFO ] In file included from /usr/include/c++/7/string:52:0,
+2022-07-28 17:59:18 [ INFO ]                  from /usr/include/c++/7/bits/locale_classes.h:40,
+2022-07-28 17:59:18 [ INFO ]                  from /usr/include/c++/7/bits/ios_base.h:41,
+2022-07-28 17:59:18 [ INFO ]                  from /usr/include/c++/7/ios:42,
+2022-07-28 17:59:18 [ INFO ]                  from /usr/include/c++/7/ostream:38,
+2022-07-28 17:59:18 [ INFO ]                  from /usr/include/c++/7/iostream:39,
+2022-07-28 17:59:18 [ INFO ]                  from /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:18:
+2022-07-28 17:59:18 [ INFO ] /usr/include/c++/7/bits/basic_string.h:5977:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> std::basic_string<_CharT, _Traits, _Alloc> std::operator+(const _CharT*, std::basic_string<_CharT, _Traits, _Alloc>&&)
+2022-07-28 17:59:18 [ INFO ]      operator+(const _CharT* __lhs,
+2022-07-28 17:59:18 [ INFO ]      ^~~~~~~~
+2022-07-28 17:59:18 [ INFO ] /usr/include/c++/7/bits/basic_string.h:5977:5: note:   template argument deduction/substitution failed:
+2022-07-28 17:59:18 [ INFO ] /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:210:35: note:   types 'std::basic_string<_CharT, _Traits, _Alloc>' and 'const std::vector<MxBase::ClassInfo>' have incompatible cv-qualifiers
+2022-07-28 17:59:18 [ INFO ]          LogInfo << "Original: " + clsInfos;
+2022-07-28 17:59:18 [ INFO ]                                    ^~~~~~~~
+2022-07-28 17:59:18 [ INFO ] In file included from /usr/include/c++/7/string:52:0,
+2022-07-28 17:59:18 [ INFO ]                  from /usr/include/c++/7/bits/locale_classes.h:40,
+2022-07-28 17:59:18 [ INFO ]                  from /usr/include/c++/7/bits/ios_base.h:41,
+2022-07-28 17:59:18 [ INFO ]                  from /usr/include/c++/7/ios:42,
+2022-07-28 17:59:18 [ INFO ]                  from /usr/include/c++/7/ostream:38,
+2022-07-28 17:59:18 [ INFO ]                  from /usr/include/c++/7/iostream:39,
+2022-07-28 17:59:18 [ INFO ]                  from /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:18:
+2022-07-28 17:59:18 [ INFO ] /usr/include/c++/7/bits/basic_string.h:5965:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> std::basic_string<_CharT, _Traits, _Alloc> std::operator+(std::basic_string<_CharT, _Traits, _Alloc>&&, std::basic_string<_CharT, _Traits, _Alloc>&&)
+2022-07-28 17:59:18 [ INFO ]      operator+(basic_string<_CharT, _Traits, _Alloc>&& __lhs,
+2022-07-28 17:59:18 [ INFO ]      ^~~~~~~~
+2022-07-28 17:59:18 [ INFO ] /usr/include/c++/7/bits/basic_string.h:5965:5: note:   template argument deduction/substitution failed:
+2022-07-28 17:59:18 [ INFO ] /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:210:35: note:   mismatched types 'std::basic_string<_CharT, _Traits, _Alloc>' and 'const char [11]'
+2022-07-28 17:59:18 [ INFO ]          LogInfo << "Original: " + clsInfos;
+2022-07-28 17:59:18 [ INFO ]                                    ^~~~~~~~
+2022-07-28 17:59:18 [ INFO ] In file included from /usr/include/c++/7/string:52:0,
+2022-07-28 17:59:18 [ INFO ]                  from /usr/include/c++/7/bits/locale_classes.h:40,
+2022-07-28 17:59:18 [ INFO ]                  from /usr/include/c++/7/bits/ios_base.h:41,
+2022-07-28 17:59:18 [ INFO ]                  from /usr/include/c++/7/ios:42,
+2022-07-28 17:59:18 [ INFO ]                  from /usr/include/c++/7/ostream:38,
+2022-07-28 17:59:18 [ INFO ]                  from /usr/include/c++/7/iostream:39,
+2022-07-28 17:59:18 [ INFO ]                  from /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:18:
+2022-07-28 17:59:18 [ INFO ] /usr/include/c++/7/bits/basic_string.h:5959:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> std::basic_string<_CharT, _Traits, _Alloc> std::operator+(const std::basic_string<_CharT, _Traits, _Alloc>&, std::basic_string<_CharT, _Traits, _Alloc>&&)
+2022-07-28 17:59:18 [ INFO ]      operator+(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
+2022-07-28 17:59:18 [ INFO ]      ^~~~~~~~
+2022-07-28 17:59:18 [ INFO ] /usr/include/c++/7/bits/basic_string.h:5959:5: note:   template argument deduction/substitution failed:
+2022-07-28 17:59:18 [ INFO ] /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:210:35: note:   mismatched types 'const std::basic_string<_CharT, _Traits, _Alloc>' and 'const char [11]'
+2022-07-28 17:59:18 [ INFO ]          LogInfo << "Original: " + clsInfos;
+2022-07-28 17:59:18 [ INFO ]                                    ^~~~~~~~
+2022-07-28 17:59:18 [ INFO ] In file included from /usr/include/c++/7/string:52:0,
+2022-07-28 17:59:18 [ INFO ]                  from /usr/include/c++/7/bits/locale_classes.h:40,
+2022-07-28 17:59:18 [ INFO ]                  from /usr/include/c++/7/bits/ios_base.h:41,
+2022-07-28 17:59:18 [ INFO ]                  from /usr/include/c++/7/ios:42,
+2022-07-28 17:59:18 [ INFO ]                  from /usr/include/c++/7/ostream:38,
+2022-07-28 17:59:18 [ INFO ]                  from /usr/include/c++/7/iostream:39,
+2022-07-28 17:59:18 [ INFO ]                  from /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:18:
+2022-07-28 17:59:18 [ INFO ] /usr/include/c++/7/bits/basic_string.h:5953:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> std::basic_string<_CharT, _Traits, _Alloc> std::operator+(std::basic_string<_CharT, _Traits, _Alloc>&&, const std::basic_string<_CharT, _Traits, _Alloc>&)
+2022-07-28 17:59:18 [ INFO ]      operator+(basic_string<_CharT, _Traits, _Alloc>&& __lhs,
+2022-07-28 17:59:18 [ INFO ]      ^~~~~~~~
+2022-07-28 17:59:18 [ INFO ] /usr/include/c++/7/bits/basic_string.h:5953:5: note:   template argument deduction/substitution failed:
+2022-07-28 17:59:18 [ INFO ] /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:210:35: note:   mismatched types 'std::basic_string<_CharT, _Traits, _Alloc>' and 'const char [11]'
+2022-07-28 17:59:18 [ INFO ]          LogInfo << "Original: " + clsInfos;
+2022-07-28 17:59:18 [ INFO ]                                    ^~~~~~~~
+2022-07-28 17:59:18 [ INFO ] In file included from /usr/include/c++/7/string:52:0,
+2022-07-28 17:59:18 [ INFO ]                  from /usr/include/c++/7/bits/locale_classes.h:40,
+2022-07-28 17:59:18 [ INFO ]                  from /usr/include/c++/7/bits/ios_base.h:41,
+2022-07-28 17:59:18 [ INFO ]                  from /usr/include/c++/7/ios:42,
+2022-07-28 17:59:18 [ INFO ]                  from /usr/include/c++/7/ostream:38,
+2022-07-28 17:59:18 [ INFO ]                  from /usr/include/c++/7/iostream:39,
+2022-07-28 17:59:18 [ INFO ]                  from /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:18:
+2022-07-28 17:59:18 [ INFO ] /usr/include/c++/7/bits/basic_string.h:5941:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> std::basic_string<_CharT, _Traits, _Alloc> std::operator+(const std::basic_string<_CharT, _Traits, _Alloc>&, _CharT)
+2022-07-28 17:59:18 [ INFO ]      operator+(const basic_string<_CharT, _Traits, _Alloc>& __lhs, _CharT __rhs)
+2022-07-28 17:59:18 [ INFO ]      ^~~~~~~~
+2022-07-28 17:59:18 [ INFO ] /usr/include/c++/7/bits/basic_string.h:5941:5: note:   template argument deduction/substitution failed:
+2022-07-28 17:59:18 [ INFO ] /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:210:35: note:   mismatched types 'const std::basic_string<_CharT, _Traits, _Alloc>' and 'const char [11]'
+2022-07-28 17:59:18 [ INFO ]          LogInfo << "Original: " + clsInfos;
+2022-07-28 17:59:18 [ INFO ]                                    ^~~~~~~~
+2022-07-28 17:59:18 [ INFO ] In file included from /usr/include/c++/7/string:52:0,
+2022-07-28 17:59:18 [ INFO ]                  from /usr/include/c++/7/bits/locale_classes.h:40,
+2022-07-28 17:59:18 [ INFO ]                  from /usr/include/c++/7/bits/ios_base.h:41,
+2022-07-28 17:59:18 [ INFO ]                  from /usr/include/c++/7/ios:42,
+2022-07-28 17:59:18 [ INFO ]                  from /usr/include/c++/7/ostream:38,
+2022-07-28 17:59:18 [ INFO ]                  from /usr/include/c++/7/iostream:39,
+2022-07-28 17:59:18 [ INFO ]                  from /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:18:
+2022-07-28 17:59:18 [ INFO ] /usr/include/c++/7/bits/basic_string.h:5925:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> std::basic_string<_CharT, _Traits, _Alloc> std::operator+(const std::basic_string<_CharT, _Traits, _Alloc>&, const _CharT*)
+2022-07-28 17:59:18 [ INFO ]      operator+(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
+2022-07-28 17:59:18 [ INFO ]      ^~~~~~~~
+2022-07-28 17:59:18 [ INFO ] /usr/include/c++/7/bits/basic_string.h:5925:5: note:   template argument deduction/substitution failed:
+2022-07-28 17:59:18 [ INFO ] /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:210:35: note:   mismatched types 'const std::basic_string<_CharT, _Traits, _Alloc>' and 'const char [11]'
+2022-07-28 17:59:18 [ INFO ]          LogInfo << "Original: " + clsInfos;
+2022-07-28 17:59:18 [ INFO ]                                    ^~~~~~~~
+2022-07-28 17:59:18 [ INFO ] In file included from /usr/include/c++/7/string:53:0,
+2022-07-28 17:59:18 [ INFO ]                  from /usr/include/c++/7/bits/locale_classes.h:40,
+2022-07-28 17:59:18 [ INFO ]                  from /usr/include/c++/7/bits/ios_base.h:41,
+2022-07-28 17:59:18 [ INFO ]                  from /usr/include/c++/7/ios:42,
+2022-07-28 17:59:18 [ INFO ]                  from /usr/include/c++/7/ostream:38,
+2022-07-28 17:59:18 [ INFO ]                  from /usr/include/c++/7/iostream:39,
+2022-07-28 17:59:18 [ INFO ]                  from /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:18:
+2022-07-28 17:59:18 [ INFO ] /usr/include/c++/7/bits/basic_string.tcc:1173:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> std::basic_string<_CharT, _Traits, _Alloc> std::operator+(_CharT, const std::basic_string<_CharT, _Traits, _Alloc>&)
+2022-07-28 17:59:18 [ INFO ]      operator+(_CharT __lhs, const basic_string<_CharT, _Traits, _Alloc>& __rhs)
+2022-07-28 17:59:18 [ INFO ]      ^~~~~~~~
+2022-07-28 17:59:18 [ INFO ] /usr/include/c++/7/bits/basic_string.tcc:1173:5: note:   template argument deduction/substitution failed:
+2022-07-28 17:59:18 [ INFO ] /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:210:35: note:   'const std::vector<MxBase::ClassInfo>' is not derived from 'const std::basic_string<_CharT, _Traits, _Alloc>'
+2022-07-28 17:59:18 [ INFO ]          LogInfo << "Original: " + clsInfos;
+2022-07-28 17:59:18 [ INFO ]                                    ^~~~~~~~
+2022-07-28 17:59:18 [ INFO ] In file included from /usr/include/c++/7/string:53:0,
+2022-07-28 17:59:18 [ INFO ]                  from /usr/include/c++/7/bits/locale_classes.h:40,
+2022-07-28 17:59:18 [ INFO ]                  from /usr/include/c++/7/bits/ios_base.h:41,
+2022-07-28 17:59:18 [ INFO ]                  from /usr/include/c++/7/ios:42,
+2022-07-28 17:59:18 [ INFO ]                  from /usr/include/c++/7/ostream:38,
+2022-07-28 17:59:18 [ INFO ]                  from /usr/include/c++/7/iostream:39,
+2022-07-28 17:59:18 [ INFO ]                  from /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:18:
+2022-07-28 17:59:18 [ INFO ] /usr/include/c++/7/bits/basic_string.tcc:1157:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> std::basic_string<_CharT, _Traits, _Alloc> std::operator+(const _CharT*, const std::basic_string<_CharT, _Traits, _Alloc>&)
+2022-07-28 17:59:18 [ INFO ]      operator+(const _CharT* __lhs,
+2022-07-28 17:59:18 [ INFO ]      ^~~~~~~~
+2022-07-28 17:59:18 [ INFO ] /usr/include/c++/7/bits/basic_string.tcc:1157:5: note:   template argument deduction/substitution failed:
+2022-07-28 17:59:18 [ INFO ] /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:210:35: note:   'const std::vector<MxBase::ClassInfo>' is not derived from 'const std::basic_string<_CharT, _Traits, _Alloc>'
+2022-07-28 17:59:18 [ INFO ]          LogInfo << "Original: " + clsInfos;
+2022-07-28 17:59:18 [ INFO ]                                    ^~~~~~~~
+2022-07-28 17:59:18 [ INFO ] In file included from /usr/include/c++/7/string:52:0,
+2022-07-28 17:59:18 [ INFO ]                  from /usr/include/c++/7/bits/locale_classes.h:40,
+2022-07-28 17:59:18 [ INFO ]                  from /usr/include/c++/7/bits/ios_base.h:41,
+2022-07-28 17:59:18 [ INFO ]                  from /usr/include/c++/7/ios:42,
+2022-07-28 17:59:18 [ INFO ]                  from /usr/include/c++/7/ostream:38,
+2022-07-28 17:59:18 [ INFO ]                  from /usr/include/c++/7/iostream:39,
+2022-07-28 17:59:18 [ INFO ]                  from /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:18:
+2022-07-28 17:59:18 [ INFO ] /usr/include/c++/7/bits/basic_string.h:5888:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> std::basic_string<_CharT, _Traits, _Alloc> std::operator+(const std::basic_string<_CharT, _Traits, _Alloc>&, const std::basic_string<_CharT, _Traits, _Alloc>&)
+2022-07-28 17:59:18 [ INFO ]      operator+(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
+2022-07-28 17:59:18 [ INFO ]      ^~~~~~~~
+2022-07-28 17:59:18 [ INFO ] /usr/include/c++/7/bits/basic_string.h:5888:5: note:   template argument deduction/substitution failed:
+2022-07-28 17:59:18 [ INFO ] /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:210:35: note:   mismatched types 'const std::basic_string<_CharT, _Traits, _Alloc>' and 'const char [11]'
+2022-07-28 17:59:18 [ INFO ]          LogInfo << "Original: " + clsInfos;
+2022-07-28 17:59:18 [ INFO ]                                    ^~~~~~~~
+2022-07-28 17:59:18 [ INFO ] In file included from /usr/include/c++/7/bits/stl_algobase.h:67:0,
+2022-07-28 17:59:18 [ INFO ]                  from /usr/include/c++/7/bits/char_traits.h:39,
+2022-07-28 17:59:18 [ INFO ]                  from /usr/include/c++/7/ios:40,
+2022-07-28 17:59:18 [ INFO ]                  from /usr/include/c++/7/ostream:38,
+2022-07-28 17:59:18 [ INFO ]                  from /usr/include/c++/7/iostream:39,
+2022-07-28 17:59:18 [ INFO ]                  from /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:18:
+2022-07-28 17:59:18 [ INFO ] /usr/include/c++/7/bits/stl_iterator.h:1201:5: note: candidate: template<class _Iterator> std::move_iterator<_IteratorL> std::operator+(typename std::move_iterator<_IteratorL>::difference_type, const std::move_iterator<_IteratorL>&)
+2022-07-28 17:59:18 [ INFO ]      operator+(typename move_iterator<_Iterator>::difference_type __n,
+2022-07-28 17:59:18 [ INFO ]      ^~~~~~~~
+2022-07-28 17:59:18 [ INFO ] /usr/include/c++/7/bits/stl_iterator.h:1201:5: note:   template argument deduction/substitution failed:
+2022-07-28 17:59:18 [ INFO ] /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:210:35: note:   'const std::vector<MxBase::ClassInfo>' is not derived from 'const std::move_iterator<_IteratorL>'
+2022-07-28 17:59:18 [ INFO ]          LogInfo << "Original: " + clsInfos;
+2022-07-28 17:59:18 [ INFO ]                                    ^~~~~~~~
+2022-07-28 17:59:18 [ INFO ] In file included from /usr/include/c++/7/bits/stl_algobase.h:67:0,
+2022-07-28 17:59:18 [ INFO ]                  from /usr/include/c++/7/bits/char_traits.h:39,
+2022-07-28 17:59:18 [ INFO ]                  from /usr/include/c++/7/ios:40,
+2022-07-28 17:59:18 [ INFO ]                  from /usr/include/c++/7/ostream:38,
+2022-07-28 17:59:18 [ INFO ]                  from /usr/include/c++/7/iostream:39,
+2022-07-28 17:59:18 [ INFO ]                  from /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:18:
+2022-07-28 17:59:18 [ INFO ] /usr/include/c++/7/bits/stl_iterator.h:400:5: note: candidate: template<class _Iterator> std::reverse_iterator<_Iterator> std::operator+(typename std::reverse_iterator<_Iterator>::difference_type, const std::reverse_iterator<_Iterator>&)
+2022-07-28 17:59:18 [ INFO ]      operator+(typename reverse_iterator<_Iterator>::difference_type __n,
+2022-07-28 17:59:18 [ INFO ]      ^~~~~~~~
+2022-07-28 17:59:18 [ INFO ] /usr/include/c++/7/bits/stl_iterator.h:400:5: note:   template argument deduction/substitution failed:
+2022-07-28 17:59:18 [ INFO ] /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:210:35: note:   'const std::vector<MxBase::ClassInfo>' is not derived from 'const std::reverse_iterator<_Iterator>'
+2022-07-28 17:59:18 [ INFO ]          LogInfo << "Original: " + clsInfos;
+2022-07-28 17:59:18 [ INFO ]                                    ^~~~~~~~
+2022-07-28 17:59:18 [ INFO ] In file included from /usr/include/c++/7/bits/stl_algobase.h:67:0,
+2022-07-28 17:59:18 [ INFO ]                  from /usr/include/c++/7/bits/char_traits.h:39,
+2022-07-28 17:59:18 [ INFO ]                  from /usr/include/c++/7/ios:40,
+2022-07-28 17:59:18 [ INFO ]                  from /usr/include/c++/7/ostream:38,
+2022-07-28 17:59:18 [ INFO ]                  from /usr/include/c++/7/iostream:39,
+2022-07-28 17:59:18 [ INFO ]                  from /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:18:
+2022-07-28 17:59:18 [ INFO ] /usr/include/c++/7/bits/stl_iterator.h:972:5: note: candidate: template<class _Iterator, class _Container> __gnu_cxx::__normal_iterator<_Iterator, _Container> __gnu_cxx::operator+(typename __gnu_cxx::__normal_iterator<_Iterator, _Container>::difference_type, const __gnu_cxx::__normal_iterator<_Iterator, _Container>&)
+2022-07-28 17:59:18 [ INFO ]      operator+(typename __normal_iterator<_Iterator, _Container>::difference_type
+2022-07-28 17:59:18 [ INFO ]      ^~~~~~~~
+2022-07-28 17:59:18 [ INFO ] /usr/include/c++/7/bits/stl_iterator.h:972:5: note:   template argument deduction/substitution failed:
+2022-07-28 17:59:18 [ INFO ] /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:210:35: note:   'const std::vector<MxBase::ClassInfo>' is not derived from 'const __gnu_cxx::__normal_iterator<_Iterator, _Container>'
+2022-07-28 17:59:18 [ INFO ]          LogInfo << "Original: " + clsInfos;
+2022-07-28 17:59:18 [ INFO ]                                    ^~~~~~~~
+2022-07-28 17:59:19 [ INFO ] src/CMakeFiles/Resnet18_Mxbase.dir/build.make:86: recipe for target 'src/CMakeFiles/Resnet18_Mxbase.dir/Resnet18Classify.cpp.o' failed
+2022-07-28 17:59:19 [ INFO ] make[2]: *** [src/CMakeFiles/Resnet18_Mxbase.dir/Resnet18Classify.cpp.o] Error 1
+2022-07-28 17:59:19 [ INFO ] CMakeFiles/Makefile2:85: recipe for target 'src/CMakeFiles/Resnet18_Mxbase.dir/all' failed
+2022-07-28 17:59:19 [ INFO ] make[1]: *** [src/CMakeFiles/Resnet18_Mxbase.dir/all] Error 2
+2022-07-28 17:59:19 [ INFO ] Makefile:129: recipe for target 'all' failed
+2022-07-28 17:59:19 [ INFO ] make: *** [all] Error 2
+2022-07-28 17:59:19 [ INFO ] Execution failed with exit status: 2
+2022-07-28 17:59:19 [ INFO ] Getting results from remote host...
+2022-07-28 17:59:42 [ INFO ] Done.
+2022-07-28 18:01:24 [ INFO ] Synchronizing local project to remote host...
+2022-07-28 18:01:37 [ INFO ] Done.
+2022-07-28 18:01:37 [ INFO ] Execution command: export LANG=C && export DDK_PATH=/usr/local/Ascend/ascend-toolkit/5.1.RC1/x86_64-linux && export NPU_HOST_LIB=/usr/local/Ascend/ascend-toolkit/5.1.RC1/x86_64-linux/runtime/lib64/stub && export MX_SDK_HOME=/usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1 && export LD_LIBRARY_PATH=/usr/local/Ascend/ascend-toolkit/5.1.RC1/x86_64-linux/runtime/lib64/stub:${LD_LIBRARY_PATH} && mkdir -p /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/build/cmake-build-ascend-x86_64-linux-release  && cd /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/build/cmake-build-ascend-x86_64-linux-release && /usr/bin/cmake -DCMAKE_BUILD_TYPE=RELEASE -DCMAKE_MAKE_PROGRAM=/usr/bin/make -DCMAKE_C_COMPILER=gcc -DCMAKE_CXX_COMPILER=g++ -DCMAKE_BUILD_TYPE=Release -G "Unix Makefiles" /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/ && /usr/bin/cmake --build . --target all -- -j 9
+2022-07-28 18:01:39 [ INFO ] -- env MX_SDK_HOME: /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1
+2022-07-28 18:01:39 [ INFO ] -- Configuring done
+2022-07-28 18:01:39 [ INFO ] -- Generating done
+2022-07-28 18:01:39 [ INFO ] -- Build files have been written to: /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/build/cmake-build-ascend-x86_64-linux-release
+2022-07-28 18:01:39 [ INFO ] Scanning dependencies of target Resnet18_Mxbase
+2022-07-28 18:01:39 [ INFO ] [ 33%] Building CXX object src/CMakeFiles/Resnet18_Mxbase.dir/Resnet18Classify.cpp.o
+2022-07-28 18:01:41 [ INFO ] /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp: In member function 'APP_ERROR Resnet18Classify::Init(const InitParam&)':
+2022-07-28 18:01:41 [ WARN ] /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:70:29: warning: 'virtual APP_ERROR MxBase::Resnet50PostProcess::Init(const std::map<std::basic_string<char>, std::shared_ptr<void> >&)' is deprecated: Use '' instead [-Wdeprecated-declarations]
+2022-07-28 18:01:41 [ INFO ]      ret = post_->Init(config);
+2022-07-28 18:01:41 [ INFO ]                              ^
+2022-07-28 18:01:41 [ INFO ] In file included from /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.h:25:0,
+2022-07-28 18:01:41 [ INFO ]                  from /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:24:
+2022-07-28 18:01:41 [ INFO ] /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/include/MxBase/postprocess/include/ClassPostProcessors/Resnet50PostProcess.h:24:36: note: declared here
+2022-07-28 18:01:41 [ INFO ]      SDK_DEPRECATED_FOR() APP_ERROR Init(const std::map<std::string, std::shared_ptr<void>> &postConfig) override;
+2022-07-28 18:01:41 [ INFO ]                                     ^~~~
+2022-07-28 18:01:44 [ INFO ] [ 66%] Linking CXX executable ../../../out/Resnet18_Mxbase
+2022-07-28 18:01:44 [ INFO ] [100%] Built target Resnet18_Mxbase
+2022-07-28 18:01:44 [ INFO ] Getting results from remote host...
+2022-07-28 18:02:10 [ INFO ] Done.
+2022-07-28 18:04:22 [ INFO ] Synchronizing local project to remote host...
+2022-07-28 18:04:35 [ INFO ] Done.
+2022-07-28 18:04:35 [ INFO ] Execution command: export LANG=C && export DDK_PATH=/usr/local/Ascend/ascend-toolkit/5.1.RC1/x86_64-linux && export NPU_HOST_LIB=/usr/local/Ascend/ascend-toolkit/5.1.RC1/x86_64-linux/runtime/lib64/stub && export MX_SDK_HOME=/usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1 && export LD_LIBRARY_PATH=/usr/local/Ascend/ascend-toolkit/5.1.RC1/x86_64-linux/runtime/lib64/stub:${LD_LIBRARY_PATH} && mkdir -p /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/build/cmake-build-ascend-x86_64-linux-release  && cd /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/build/cmake-build-ascend-x86_64-linux-release && /usr/bin/cmake -DCMAKE_BUILD_TYPE=RELEASE -DCMAKE_MAKE_PROGRAM=/usr/bin/make -DCMAKE_C_COMPILER=gcc -DCMAKE_CXX_COMPILER=g++ -DCMAKE_BUILD_TYPE=Release -G "Unix Makefiles" /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/ && /usr/bin/cmake --build . --target all -- -j 9
+2022-07-28 18:04:37 [ INFO ] -- env MX_SDK_HOME: /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1
+2022-07-28 18:04:37 [ INFO ] -- Configuring done
+2022-07-28 18:04:37 [ INFO ] -- Generating done
+2022-07-28 18:04:37 [ INFO ] -- Build files have been written to: /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/build/cmake-build-ascend-x86_64-linux-release
+2022-07-28 18:04:37 [ INFO ] Scanning dependencies of target Resnet18_Mxbase
+2022-07-28 18:04:37 [ INFO ] [ 33%] Building CXX object src/CMakeFiles/Resnet18_Mxbase.dir/Resnet18Classify.cpp.o
+2022-07-28 18:04:39 [ INFO ] /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp: In member function 'APP_ERROR Resnet18Classify::Init(const InitParam&)':
+2022-07-28 18:04:39 [ WARN ] /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:70:29: warning: 'virtual APP_ERROR MxBase::Resnet50PostProcess::Init(const std::map<std::basic_string<char>, std::shared_ptr<void> >&)' is deprecated: Use '' instead [-Wdeprecated-declarations]
+2022-07-28 18:04:39 [ INFO ]      ret = post_->Init(config);
+2022-07-28 18:04:39 [ INFO ]                              ^
+2022-07-28 18:04:39 [ INFO ] In file included from /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.h:25:0,
+2022-07-28 18:04:39 [ INFO ]                  from /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:24:
+2022-07-28 18:04:39 [ INFO ] /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/include/MxBase/postprocess/include/ClassPostProcessors/Resnet50PostProcess.h:24:36: note: declared here
+2022-07-28 18:04:39 [ INFO ]      SDK_DEPRECATED_FOR() APP_ERROR Init(const std::map<std::string, std::shared_ptr<void>> &postConfig) override;
+2022-07-28 18:04:39 [ INFO ]                                     ^~~~
+2022-07-28 18:04:39 [ INFO ] /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp: In member function 'APP_ERROR Resnet18Classify::Process(const string&)':
+2022-07-28 18:04:39 [ ERROR ] /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:192:15: error: no match for 'operator<<' (operand types are 'std::ostream {aka std::basic_ostream<char>}' and 'std::vector<std::vector<MxBase::ClassInfo> >')
+2022-07-28 18:04:39 [ INFO ]      std::cout << BatchClsInfos;
+2022-07-28 18:04:39 [ INFO ]      ~~~~~~~~~~^~~~~~~~~~~~~~~~
+2022-07-28 18:04:39 [ INFO ] In file included from /usr/include/c++/7/iostream:39:0,
+2022-07-28 18:04:39 [ INFO ]                  from /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:18:
+2022-07-28 18:04:39 [ INFO ] /usr/include/c++/7/ostream:108:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::basic_ostream<_CharT, _Traits>::__ostream_type& (*)(std::basic_ostream<_CharT, _Traits>::__ostream_type&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+2022-07-28 18:04:39 [ INFO ]        operator<<(__ostream_type& (*__pf)(__ostream_type&))
+2022-07-28 18:04:39 [ INFO ]        ^~~~~~~~
+2022-07-28 18:04:39 [ INFO ] /usr/include/c++/7/ostream:108:7: note:   no known conversion for argument 1 from 'std::vector<std::vector<MxBase::ClassInfo> >' to 'std::basic_ostream<char>::__ostream_type& (*)(std::basic_ostream<char>::__ostream_type&) {aka std::basic_ostream<char>& (*)(std::basic_ostream<char>&)}'
+2022-07-28 18:04:39 [ INFO ] /usr/include/c++/7/ostream:117:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::basic_ostream<_CharT, _Traits>::__ios_type& (*)(std::basic_ostream<_CharT, _Traits>::__ios_type&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>; std::basic_ostream<_CharT, _Traits>::__ios_type = std::basic_ios<char>]
+2022-07-28 18:04:39 [ INFO ]        operator<<(__ios_type& (*__pf)(__ios_type&))
+2022-07-28 18:04:39 [ INFO ]        ^~~~~~~~
+2022-07-28 18:04:39 [ INFO ] /usr/include/c++/7/ostream:117:7: note:   no known conversion for argument 1 from 'std::vector<std::vector<MxBase::ClassInfo> >' to 'std::basic_ostream<char>::__ios_type& (*)(std::basic_ostream<char>::__ios_type&) {aka std::basic_ios<char>& (*)(std::basic_ios<char>&)}'
+2022-07-28 18:04:39 [ INFO ] /usr/include/c++/7/ostream:127:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::ios_base& (*)(std::ios_base&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+2022-07-28 18:04:39 [ INFO ]        operator<<(ios_base& (*__pf) (ios_base&))
+2022-07-28 18:04:39 [ INFO ]        ^~~~~~~~
+2022-07-28 18:04:39 [ INFO ] /usr/include/c++/7/ostream:127:7: note:   no known conversion for argument 1 from 'std::vector<std::vector<MxBase::ClassInfo> >' to 'std::ios_base& (*)(std::ios_base&)'
+2022-07-28 18:04:39 [ INFO ] /usr/include/c++/7/ostream:166:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+2022-07-28 18:04:39 [ INFO ]        operator<<(long __n)
+2022-07-28 18:04:39 [ INFO ]        ^~~~~~~~
+2022-07-28 18:04:39 [ INFO ] /usr/include/c++/7/ostream:166:7: note:   no known conversion for argument 1 from 'std::vector<std::vector<MxBase::ClassInfo> >' to 'long int'
+2022-07-28 18:04:39 [ INFO ] /usr/include/c++/7/ostream:170:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+2022-07-28 18:04:39 [ INFO ]        operator<<(unsigned long __n)
+2022-07-28 18:04:39 [ INFO ]        ^~~~~~~~
+2022-07-28 18:04:39 [ INFO ] /usr/include/c++/7/ostream:170:7: note:   no known conversion for argument 1 from 'std::vector<std::vector<MxBase::ClassInfo> >' to 'long unsigned int'
+2022-07-28 18:04:39 [ INFO ] /usr/include/c++/7/ostream:174:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(bool) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+2022-07-28 18:04:39 [ INFO ]        operator<<(bool __n)
+2022-07-28 18:04:39 [ INFO ]        ^~~~~~~~
+2022-07-28 18:04:39 [ INFO ] /usr/include/c++/7/ostream:174:7: note:   no known conversion for argument 1 from 'std::vector<std::vector<MxBase::ClassInfo> >' to 'bool'
+2022-07-28 18:04:39 [ INFO ] In file included from /usr/include/c++/7/ostream:693:0,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/include/c++/7/iostream:39,
+2022-07-28 18:04:39 [ INFO ]                  from /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:18:
+2022-07-28 18:04:39 [ INFO ] /usr/include/c++/7/bits/ostream.tcc:91:5: note: candidate: std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(short int) [with _CharT = char; _Traits = std::char_traits<char>]
+2022-07-28 18:04:39 [ INFO ]      basic_ostream<_CharT, _Traits>::
+2022-07-28 18:04:39 [ INFO ]      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2022-07-28 18:04:39 [ INFO ] /usr/include/c++/7/bits/ostream.tcc:91:5: note:   no known conversion for argument 1 from 'std::vector<std::vector<MxBase::ClassInfo> >' to 'short int'
+2022-07-28 18:04:39 [ INFO ] In file included from /usr/include/c++/7/iostream:39:0,
+2022-07-28 18:04:39 [ INFO ]                  from /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:18:
+2022-07-28 18:04:39 [ INFO ] /usr/include/c++/7/ostream:181:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(short unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+2022-07-28 18:04:39 [ INFO ]        operator<<(unsigned short __n)
+2022-07-28 18:04:39 [ INFO ]        ^~~~~~~~
+2022-07-28 18:04:39 [ INFO ] /usr/include/c++/7/ostream:181:7: note:   no known conversion for argument 1 from 'std::vector<std::vector<MxBase::ClassInfo> >' to 'short unsigned int'
+2022-07-28 18:04:39 [ INFO ] In file included from /usr/include/c++/7/ostream:693:0,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/include/c++/7/iostream:39,
+2022-07-28 18:04:39 [ INFO ]                  from /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:18:
+2022-07-28 18:04:39 [ INFO ] /usr/include/c++/7/bits/ostream.tcc:105:5: note: candidate: std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(int) [with _CharT = char; _Traits = std::char_traits<char>]
+2022-07-28 18:04:39 [ INFO ]      basic_ostream<_CharT, _Traits>::
+2022-07-28 18:04:39 [ INFO ]      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2022-07-28 18:04:39 [ INFO ] /usr/include/c++/7/bits/ostream.tcc:105:5: note:   no known conversion for argument 1 from 'std::vector<std::vector<MxBase::ClassInfo> >' to 'int'
+2022-07-28 18:04:39 [ INFO ] In file included from /usr/include/c++/7/iostream:39:0,
+2022-07-28 18:04:39 [ INFO ]                  from /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:18:
+2022-07-28 18:04:39 [ INFO ] /usr/include/c++/7/ostream:192:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+2022-07-28 18:04:39 [ INFO ]        operator<<(unsigned int __n)
+2022-07-28 18:04:39 [ INFO ]        ^~~~~~~~
+2022-07-28 18:04:39 [ INFO ] /usr/include/c++/7/ostream:192:7: note:   no known conversion for argument 1 from 'std::vector<std::vector<MxBase::ClassInfo> >' to 'unsigned int'
+2022-07-28 18:04:39 [ INFO ] /usr/include/c++/7/ostream:201:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long long int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+2022-07-28 18:04:39 [ INFO ]        operator<<(long long __n)
+2022-07-28 18:04:39 [ INFO ]        ^~~~~~~~
+2022-07-28 18:04:39 [ INFO ] /usr/include/c++/7/ostream:201:7: note:   no known conversion for argument 1 from 'std::vector<std::vector<MxBase::ClassInfo> >' to 'long long int'
+2022-07-28 18:04:39 [ INFO ] /usr/include/c++/7/ostream:205:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long long unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+2022-07-28 18:04:39 [ INFO ]        operator<<(unsigned long long __n)
+2022-07-28 18:04:39 [ INFO ]        ^~~~~~~~
+2022-07-28 18:04:39 [ INFO ] /usr/include/c++/7/ostream:205:7: note:   no known conversion for argument 1 from 'std::vector<std::vector<MxBase::ClassInfo> >' to 'long long unsigned int'
+2022-07-28 18:04:39 [ INFO ] /usr/include/c++/7/ostream:220:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(double) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+2022-07-28 18:04:39 [ INFO ]        operator<<(double __f)
+2022-07-28 18:04:39 [ INFO ]        ^~~~~~~~
+2022-07-28 18:04:39 [ INFO ] /usr/include/c++/7/ostream:220:7: note:   no known conversion for argument 1 from 'std::vector<std::vector<MxBase::ClassInfo> >' to 'double'
+2022-07-28 18:04:39 [ INFO ] /usr/include/c++/7/ostream:224:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(float) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+2022-07-28 18:04:39 [ INFO ]        operator<<(float __f)
+2022-07-28 18:04:39 [ INFO ]        ^~~~~~~~
+2022-07-28 18:04:39 [ INFO ] /usr/include/c++/7/ostream:224:7: note:   no known conversion for argument 1 from 'std::vector<std::vector<MxBase::ClassInfo> >' to 'float'
+2022-07-28 18:04:39 [ INFO ] /usr/include/c++/7/ostream:232:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long double) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+2022-07-28 18:04:39 [ INFO ]        operator<<(long double __f)
+2022-07-28 18:04:39 [ INFO ]        ^~~~~~~~
+2022-07-28 18:04:39 [ INFO ] /usr/include/c++/7/ostream:232:7: note:   no known conversion for argument 1 from 'std::vector<std::vector<MxBase::ClassInfo> >' to 'long double'
+2022-07-28 18:04:39 [ INFO ] /usr/include/c++/7/ostream:245:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(const void*) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+2022-07-28 18:04:39 [ INFO ]        operator<<(const void* __p)
+2022-07-28 18:04:39 [ INFO ]        ^~~~~~~~
+2022-07-28 18:04:39 [ INFO ] /usr/include/c++/7/ostream:245:7: note:   no known conversion for argument 1 from 'std::vector<std::vector<MxBase::ClassInfo> >' to 'const void*'
+2022-07-28 18:04:39 [ INFO ] In file included from /usr/include/c++/7/ostream:693:0,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/include/c++/7/iostream:39,
+2022-07-28 18:04:39 [ INFO ]                  from /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:18:
+2022-07-28 18:04:39 [ INFO ] /usr/include/c++/7/bits/ostream.tcc:119:5: note: candidate: std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(std::basic_ostream<_CharT, _Traits>::__streambuf_type*) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__streambuf_type = std::basic_streambuf<char>]
+2022-07-28 18:04:39 [ INFO ]      basic_ostream<_CharT, _Traits>::
+2022-07-28 18:04:39 [ INFO ]      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2022-07-28 18:04:39 [ INFO ] /usr/include/c++/7/bits/ostream.tcc:119:5: note:   no known conversion for argument 1 from 'std::vector<std::vector<MxBase::ClassInfo> >' to 'std::basic_ostream<char>::__streambuf_type* {aka std::basic_streambuf<char>*}'
+2022-07-28 18:04:39 [ INFO ] In file included from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/include/MxBase/Log/Log.h:17:0,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/include/MxBase/Tensor/TensorBase/TensorBase.h:23,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/include/MxBase/ModelInfer/ModelInferenceProcessor.h:15,
+2022-07-28 18:04:39 [ INFO ]                  from /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.h:24,
+2022-07-28 18:04:39 [ INFO ]                  from /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:24:
+2022-07-28 18:04:39 [ INFO ] /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/opensource/include/glog/logging.h:712:22: note: candidate: std::ostream& operator<<(std::ostream&, const mindxsdk_private::DummyClassToDefineOperator&)
+2022-07-28 18:04:39 [ INFO ]  inline std::ostream& operator<<(
+2022-07-28 18:04:39 [ INFO ]                       ^~~~~~~~
+2022-07-28 18:04:39 [ INFO ] /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/opensource/include/glog/logging.h:712:22: note:   no known conversion for argument 2 from 'std::vector<std::vector<MxBase::ClassInfo> >' to 'const mindxsdk_private::DummyClassToDefineOperator&'
+2022-07-28 18:04:39 [ INFO ] In file included from /usr/include/c++/7/random:51:0,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/opensource/include/cpprest/asyncrt_utils.h:22,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/opensource/include/cpprest/json.h:18,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/include/MxBase/ConfigUtil/ConfigUtil.h:18,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/include/MxBase/PostProcessBases/PostProcessBase.h:18,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/include/MxBase/PostProcessBases/ClassPostProcessBase.h:11,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/include/MxBase/postprocess/include/ClassPostProcessors/Resnet50PostProcess.h:11,
+2022-07-28 18:04:39 [ INFO ]                  from /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.h:25,
+2022-07-28 18:04:39 [ INFO ]                  from /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:24:
+2022-07-28 18:04:39 [ INFO ] /usr/include/c++/7/bits/random.tcc:3160:5: note: candidate: template<class _RealType, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::piecewise_linear_distribution<_RealType>&)
+2022-07-28 18:04:39 [ INFO ]      operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+2022-07-28 18:04:39 [ INFO ]      ^~~~~~~~
+2022-07-28 18:04:39 [ INFO ] /usr/include/c++/7/bits/random.tcc:3160:5: note:   template argument deduction/substitution failed:
+2022-07-28 18:04:39 [ INFO ] /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:192:18: note:   'std::vector<std::vector<MxBase::ClassInfo> >' is not derived from 'const std::piecewise_linear_distribution<_RealType>'
+2022-07-28 18:04:39 [ INFO ]      std::cout << BatchClsInfos;
+2022-07-28 18:04:39 [ INFO ]                   ^~~~~~~~~~~~~
+2022-07-28 18:04:39 [ INFO ] In file included from /usr/include/c++/7/random:51:0,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/opensource/include/cpprest/asyncrt_utils.h:22,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/opensource/include/cpprest/json.h:18,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/include/MxBase/ConfigUtil/ConfigUtil.h:18,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/include/MxBase/PostProcessBases/PostProcessBase.h:18,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/include/MxBase/PostProcessBases/ClassPostProcessBase.h:11,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/include/MxBase/postprocess/include/ClassPostProcessors/Resnet50PostProcess.h:11,
+2022-07-28 18:04:39 [ INFO ]                  from /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.h:25,
+2022-07-28 18:04:39 [ INFO ]                  from /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:24:
+2022-07-28 18:04:39 [ INFO ] /usr/include/c++/7/bits/random.tcc:2944:5: note: candidate: template<class _RealType, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::piecewise_constant_distribution<_RealType>&)
+2022-07-28 18:04:39 [ INFO ]      operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+2022-07-28 18:04:39 [ INFO ]      ^~~~~~~~
+2022-07-28 18:04:39 [ INFO ] /usr/include/c++/7/bits/random.tcc:2944:5: note:   template argument deduction/substitution failed:
+2022-07-28 18:04:39 [ INFO ] /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:192:18: note:   'std::vector<std::vector<MxBase::ClassInfo> >' is not derived from 'const std::piecewise_constant_distribution<_RealType>'
+2022-07-28 18:04:39 [ INFO ]      std::cout << BatchClsInfos;
+2022-07-28 18:04:39 [ INFO ]                   ^~~~~~~~~~~~~
+2022-07-28 18:04:39 [ INFO ] In file included from /usr/include/c++/7/random:51:0,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/opensource/include/cpprest/asyncrt_utils.h:22,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/opensource/include/cpprest/json.h:18,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/include/MxBase/ConfigUtil/ConfigUtil.h:18,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/include/MxBase/PostProcessBases/PostProcessBase.h:18,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/include/MxBase/PostProcessBases/ClassPostProcessBase.h:11,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/include/MxBase/postprocess/include/ClassPostProcessors/Resnet50PostProcess.h:11,
+2022-07-28 18:04:39 [ INFO ]                  from /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.h:25,
+2022-07-28 18:04:39 [ INFO ]                  from /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:24:
+2022-07-28 18:04:39 [ INFO ] /usr/include/c++/7/bits/random.tcc:2734:5: note: candidate: template<class _IntType, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::discrete_distribution<_IntType>&)
+2022-07-28 18:04:39 [ INFO ]      operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+2022-07-28 18:04:39 [ INFO ]      ^~~~~~~~
+2022-07-28 18:04:39 [ INFO ] /usr/include/c++/7/bits/random.tcc:2734:5: note:   template argument deduction/substitution failed:
+2022-07-28 18:04:39 [ INFO ] /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:192:18: note:   'std::vector<std::vector<MxBase::ClassInfo> >' is not derived from 'const std::discrete_distribution<_IntType>'
+2022-07-28 18:04:39 [ INFO ]      std::cout << BatchClsInfos;
+2022-07-28 18:04:39 [ INFO ]                   ^~~~~~~~~~~~~
+2022-07-28 18:04:39 [ INFO ] In file included from /usr/include/c++/7/random:51:0,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/opensource/include/cpprest/asyncrt_utils.h:22,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/opensource/include/cpprest/json.h:18,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/include/MxBase/ConfigUtil/ConfigUtil.h:18,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/include/MxBase/PostProcessBases/PostProcessBase.h:18,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/include/MxBase/PostProcessBases/ClassPostProcessBase.h:11,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/include/MxBase/postprocess/include/ClassPostProcessors/Resnet50PostProcess.h:11,
+2022-07-28 18:04:39 [ INFO ]                  from /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.h:25,
+2022-07-28 18:04:39 [ INFO ]                  from /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:24:
+2022-07-28 18:04:39 [ INFO ] /usr/include/c++/7/bits/random.tcc:2275:5: note: candidate: template<class _RealType, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::student_t_distribution<_RealType>&)
+2022-07-28 18:04:39 [ INFO ]      operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+2022-07-28 18:04:39 [ INFO ]      ^~~~~~~~
+2022-07-28 18:04:39 [ INFO ] /usr/include/c++/7/bits/random.tcc:2275:5: note:   template argument deduction/substitution failed:
+2022-07-28 18:04:39 [ INFO ] /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:192:18: note:   'std::vector<std::vector<MxBase::ClassInfo> >' is not derived from 'const std::student_t_distribution<_RealType>'
+2022-07-28 18:04:39 [ INFO ]      std::cout << BatchClsInfos;
+2022-07-28 18:04:39 [ INFO ]                   ^~~~~~~~~~~~~
+2022-07-28 18:04:39 [ INFO ] In file included from /usr/include/c++/7/random:51:0,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/opensource/include/cpprest/asyncrt_utils.h:22,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/opensource/include/cpprest/json.h:18,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/include/MxBase/ConfigUtil/ConfigUtil.h:18,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/include/MxBase/PostProcessBases/PostProcessBase.h:18,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/include/MxBase/PostProcessBases/ClassPostProcessBase.h:11,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/include/MxBase/postprocess/include/ClassPostProcessors/Resnet50PostProcess.h:11,
+2022-07-28 18:04:39 [ INFO ]                  from /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.h:25,
+2022-07-28 18:04:39 [ INFO ]                  from /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:24:
+2022-07-28 18:04:39 [ INFO ] /usr/include/c++/7/bits/random.tcc:2200:5: note: candidate: template<class _RealType, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::fisher_f_distribution<_RealType>&)
+2022-07-28 18:04:39 [ INFO ]      operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+2022-07-28 18:04:39 [ INFO ]      ^~~~~~~~
+2022-07-28 18:04:39 [ INFO ] /usr/include/c++/7/bits/random.tcc:2200:5: note:   template argument deduction/substitution failed:
+2022-07-28 18:04:39 [ INFO ] /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:192:18: note:   'std::vector<std::vector<MxBase::ClassInfo> >' is not derived from 'const std::fisher_f_distribution<_RealType>'
+2022-07-28 18:04:39 [ INFO ]      std::cout << BatchClsInfos;
+2022-07-28 18:04:39 [ INFO ]                   ^~~~~~~~~~~~~
+2022-07-28 18:04:39 [ INFO ] In file included from /usr/include/c++/7/random:51:0,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/opensource/include/cpprest/asyncrt_utils.h:22,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/opensource/include/cpprest/json.h:18,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/include/MxBase/ConfigUtil/ConfigUtil.h:18,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/include/MxBase/PostProcessBases/PostProcessBase.h:18,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/include/MxBase/PostProcessBases/ClassPostProcessBase.h:11,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/include/MxBase/postprocess/include/ClassPostProcessors/Resnet50PostProcess.h:11,
+2022-07-28 18:04:39 [ INFO ]                  from /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.h:25,
+2022-07-28 18:04:39 [ INFO ]                  from /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:24:
+2022-07-28 18:04:39 [ INFO ] /usr/include/c++/7/bits/random.tcc:2036:5: note: candidate: template<class _RealType, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::chi_squared_distribution<_RealType>&)
+2022-07-28 18:04:39 [ INFO ]      operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+2022-07-28 18:04:39 [ INFO ]      ^~~~~~~~
+2022-07-28 18:04:39 [ INFO ] /usr/include/c++/7/bits/random.tcc:2036:5: note:   template argument deduction/substitution failed:
+2022-07-28 18:04:39 [ INFO ] /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:192:18: note:   'std::vector<std::vector<MxBase::ClassInfo> >' is not derived from 'const std::chi_squared_distribution<_RealType>'
+2022-07-28 18:04:39 [ INFO ]      std::cout << BatchClsInfos;
+2022-07-28 18:04:39 [ INFO ]                   ^~~~~~~~~~~~~
+2022-07-28 18:04:39 [ INFO ] In file included from /usr/include/c++/7/random:51:0,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/opensource/include/cpprest/asyncrt_utils.h:22,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/opensource/include/cpprest/json.h:18,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/include/MxBase/ConfigUtil/ConfigUtil.h:18,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/include/MxBase/PostProcessBases/PostProcessBase.h:18,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/include/MxBase/PostProcessBases/ClassPostProcessBase.h:11,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/include/MxBase/postprocess/include/ClassPostProcessors/Resnet50PostProcess.h:11,
+2022-07-28 18:04:39 [ INFO ]                  from /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.h:25,
+2022-07-28 18:04:39 [ INFO ]                  from /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:24:
+2022-07-28 18:04:39 [ INFO ] /usr/include/c++/7/bits/random.tcc:1963:5: note: candidate: template<class _RealType, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::lognormal_distribution<_RealType>&)
+2022-07-28 18:04:39 [ INFO ]      operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+2022-07-28 18:04:39 [ INFO ]      ^~~~~~~~
+2022-07-28 18:04:39 [ INFO ] /usr/include/c++/7/bits/random.tcc:1963:5: note:   template argument deduction/substitution failed:
+2022-07-28 18:04:39 [ INFO ] /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:192:18: note:   'std::vector<std::vector<MxBase::ClassInfo> >' is not derived from 'const std::lognormal_distribution<_RealType>'
+2022-07-28 18:04:39 [ INFO ]      std::cout << BatchClsInfos;
+2022-07-28 18:04:39 [ INFO ]                   ^~~~~~~~~~~~~
+2022-07-28 18:04:39 [ INFO ] In file included from /usr/include/c++/7/random:51:0,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/opensource/include/cpprest/asyncrt_utils.h:22,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/opensource/include/cpprest/json.h:18,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/include/MxBase/ConfigUtil/ConfigUtil.h:18,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/include/MxBase/PostProcessBases/PostProcessBase.h:18,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/include/MxBase/PostProcessBases/ClassPostProcessBase.h:11,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/include/MxBase/postprocess/include/ClassPostProcessors/Resnet50PostProcess.h:11,
+2022-07-28 18:04:39 [ INFO ]                  from /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.h:25,
+2022-07-28 18:04:39 [ INFO ]                  from /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:24:
+2022-07-28 18:04:39 [ INFO ] /usr/include/c++/7/bits/random.tcc:1667:5: note: candidate: template<class _IntType, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::binomial_distribution<_IntType>&)
+2022-07-28 18:04:39 [ INFO ]      operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+2022-07-28 18:04:39 [ INFO ]      ^~~~~~~~
+2022-07-28 18:04:39 [ INFO ] /usr/include/c++/7/bits/random.tcc:1667:5: note:   template argument deduction/substitution failed:
+2022-07-28 18:04:39 [ INFO ] /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:192:18: note:   'std::vector<std::vector<MxBase::ClassInfo> >' is not derived from 'const std::binomial_distribution<_IntType>'
+2022-07-28 18:04:39 [ INFO ]      std::cout << BatchClsInfos;
+2022-07-28 18:04:39 [ INFO ]                   ^~~~~~~~~~~~~
+2022-07-28 18:04:39 [ INFO ] In file included from /usr/include/c++/7/random:51:0,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/opensource/include/cpprest/asyncrt_utils.h:22,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/opensource/include/cpprest/json.h:18,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/include/MxBase/ConfigUtil/ConfigUtil.h:18,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/include/MxBase/PostProcessBases/PostProcessBase.h:18,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/include/MxBase/PostProcessBases/ClassPostProcessBase.h:11,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/include/MxBase/postprocess/include/ClassPostProcessors/Resnet50PostProcess.h:11,
+2022-07-28 18:04:39 [ INFO ]                  from /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.h:25,
+2022-07-28 18:04:39 [ INFO ]                  from /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:24:
+2022-07-28 18:04:39 [ INFO ] /usr/include/c++/7/bits/random.tcc:1400:5: note: candidate: template<class _IntType, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::poisson_distribution<_IntType>&)
+2022-07-28 18:04:39 [ INFO ]      operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+2022-07-28 18:04:39 [ INFO ]      ^~~~~~~~
+2022-07-28 18:04:39 [ INFO ] /usr/include/c++/7/bits/random.tcc:1400:5: note:   template argument deduction/substitution failed:
+2022-07-28 18:04:39 [ INFO ] /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:192:18: note:   'std::vector<std::vector<MxBase::ClassInfo> >' is not derived from 'const std::poisson_distribution<_IntType>'
+2022-07-28 18:04:39 [ INFO ]      std::cout << BatchClsInfos;
+2022-07-28 18:04:39 [ INFO ]                   ^~~~~~~~~~~~~
+2022-07-28 18:04:39 [ INFO ] In file included from /usr/include/c++/7/random:51:0,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/opensource/include/cpprest/asyncrt_utils.h:22,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/opensource/include/cpprest/json.h:18,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/include/MxBase/ConfigUtil/ConfigUtil.h:18,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/include/MxBase/PostProcessBases/PostProcessBase.h:18,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/include/MxBase/PostProcessBases/ClassPostProcessBase.h:11,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/include/MxBase/postprocess/include/ClassPostProcessors/Resnet50PostProcess.h:11,
+2022-07-28 18:04:39 [ INFO ]                  from /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.h:25,
+2022-07-28 18:04:39 [ INFO ]                  from /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:24:
+2022-07-28 18:04:39 [ INFO ] /usr/include/c++/7/bits/random.tcc:1195:5: note: candidate: template<class _IntType, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::negative_binomial_distribution<_IntType>&)
+2022-07-28 18:04:39 [ INFO ]      operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+2022-07-28 18:04:39 [ INFO ]      ^~~~~~~~
+2022-07-28 18:04:39 [ INFO ] /usr/include/c++/7/bits/random.tcc:1195:5: note:   template argument deduction/substitution failed:
+2022-07-28 18:04:39 [ INFO ] /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:192:18: note:   'std::vector<std::vector<MxBase::ClassInfo> >' is not derived from 'const std::negative_binomial_distribution<_IntType>'
+2022-07-28 18:04:39 [ INFO ]      std::cout << BatchClsInfos;
+2022-07-28 18:04:39 [ INFO ]                   ^~~~~~~~~~~~~
+2022-07-28 18:04:39 [ INFO ] In file included from /usr/include/c++/7/random:51:0,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/opensource/include/cpprest/asyncrt_utils.h:22,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/opensource/include/cpprest/json.h:18,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/include/MxBase/ConfigUtil/ConfigUtil.h:18,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/include/MxBase/PostProcessBases/PostProcessBase.h:18,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/include/MxBase/PostProcessBases/ClassPostProcessBase.h:11,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/include/MxBase/postprocess/include/ClassPostProcessors/Resnet50PostProcess.h:11,
+2022-07-28 18:04:39 [ INFO ]                  from /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.h:25,
+2022-07-28 18:04:39 [ INFO ]                  from /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:24:
+2022-07-28 18:04:39 [ INFO ] /usr/include/c++/7/bits/random.tcc:831:5: note: candidate: template<class _RandomNumberEngine, long unsigned int __k, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::shuffle_order_engine<_RandomNumberEngine, __k>&)
+2022-07-28 18:04:39 [ INFO ]      operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+2022-07-28 18:04:39 [ INFO ]      ^~~~~~~~
+2022-07-28 18:04:39 [ INFO ] /usr/include/c++/7/bits/random.tcc:831:5: note:   template argument deduction/substitution failed:
+2022-07-28 18:04:39 [ INFO ] /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:192:18: note:   'std::vector<std::vector<MxBase::ClassInfo> >' is not derived from 'const std::shuffle_order_engine<_RandomNumberEngine, __k>'
+2022-07-28 18:04:39 [ INFO ]      std::cout << BatchClsInfos;
+2022-07-28 18:04:39 [ INFO ]                   ^~~~~~~~~~~~~
+2022-07-28 18:04:39 [ INFO ] In file included from /usr/include/c++/7/random:51:0,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/opensource/include/cpprest/asyncrt_utils.h:22,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/opensource/include/cpprest/json.h:18,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/include/MxBase/ConfigUtil/ConfigUtil.h:18,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/include/MxBase/PostProcessBases/PostProcessBase.h:18,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/include/MxBase/PostProcessBases/ClassPostProcessBase.h:11,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/include/MxBase/postprocess/include/ClassPostProcessors/Resnet50PostProcess.h:11,
+2022-07-28 18:04:39 [ INFO ]                  from /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.h:25,
+2022-07-28 18:04:39 [ INFO ]                  from /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:24:
+2022-07-28 18:04:39 [ INFO ] /usr/include/c++/7/bits/random.tcc:702:5: note: candidate: template<class _RandomNumberEngine, long unsigned int __p, long unsigned int __r, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::discard_block_engine<_RandomNumberEngine, __p, __r>&)
+2022-07-28 18:04:39 [ INFO ]      operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+2022-07-28 18:04:39 [ INFO ]      ^~~~~~~~
+2022-07-28 18:04:39 [ INFO ] /usr/include/c++/7/bits/random.tcc:702:5: note:   template argument deduction/substitution failed:
+2022-07-28 18:04:39 [ INFO ] /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:192:18: note:   'std::vector<std::vector<MxBase::ClassInfo> >' is not derived from 'const std::discard_block_engine<_RandomNumberEngine, __p, __r>'
+2022-07-28 18:04:39 [ INFO ]      std::cout << BatchClsInfos;
+2022-07-28 18:04:39 [ INFO ]                   ^~~~~~~~~~~~~
+2022-07-28 18:04:39 [ INFO ] In file included from /usr/include/c++/7/random:51:0,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/opensource/include/cpprest/asyncrt_utils.h:22,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/opensource/include/cpprest/json.h:18,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/include/MxBase/ConfigUtil/ConfigUtil.h:18,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/include/MxBase/PostProcessBases/PostProcessBase.h:18,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/include/MxBase/PostProcessBases/ClassPostProcessBase.h:11,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/include/MxBase/postprocess/include/ClassPostProcessors/Resnet50PostProcess.h:11,
+2022-07-28 18:04:39 [ INFO ]                  from /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.h:25,
+2022-07-28 18:04:39 [ INFO ]                  from /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:24:
+2022-07-28 18:04:39 [ INFO ] /usr/include/c++/7/bits/random.tcc:632:5: note: candidate: template<class _UIntType, long unsigned int __w, long unsigned int __s, long unsigned int __r, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::subtract_with_carry_engine<_UIntType, __w, __s, __r>&)
+2022-07-28 18:04:39 [ INFO ]      operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+2022-07-28 18:04:39 [ INFO ]      ^~~~~~~~
+2022-07-28 18:04:39 [ INFO ] /usr/include/c++/7/bits/random.tcc:632:5: note:   template argument deduction/substitution failed:
+2022-07-28 18:04:39 [ INFO ] /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:192:18: note:   'std::vector<std::vector<MxBase::ClassInfo> >' is not derived from 'const std::subtract_with_carry_engine<_UIntType, __w, __s, __r>'
+2022-07-28 18:04:39 [ INFO ]      std::cout << BatchClsInfos;
+2022-07-28 18:04:39 [ INFO ]                   ^~~~~~~~~~~~~
+2022-07-28 18:04:39 [ INFO ] In file included from /usr/include/c++/7/random:51:0,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/opensource/include/cpprest/asyncrt_utils.h:22,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/opensource/include/cpprest/json.h:18,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/include/MxBase/ConfigUtil/ConfigUtil.h:18,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/include/MxBase/PostProcessBases/PostProcessBase.h:18,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/include/MxBase/PostProcessBases/ClassPostProcessBase.h:11,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/include/MxBase/postprocess/include/ClassPostProcessors/Resnet50PostProcess.h:11,
+2022-07-28 18:04:39 [ INFO ]                  from /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.h:25,
+2022-07-28 18:04:39 [ INFO ]                  from /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:24:
+2022-07-28 18:04:39 [ INFO ] /usr/include/c++/7/bits/random.tcc:156:5: note: candidate: template<class _UIntType, _UIntType __a, _UIntType __c, _UIntType __m, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::linear_congruential_engine<_UIntType, __a, __c, __m>&)
+2022-07-28 18:04:39 [ INFO ]      operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+2022-07-28 18:04:39 [ INFO ]      ^~~~~~~~
+2022-07-28 18:04:39 [ INFO ] /usr/include/c++/7/bits/random.tcc:156:5: note:   template argument deduction/substitution failed:
+2022-07-28 18:04:39 [ INFO ] /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:192:18: note:   'std::vector<std::vector<MxBase::ClassInfo> >' is not derived from 'const std::linear_congruential_engine<_UIntType, __a, __c, __m>'
+2022-07-28 18:04:39 [ INFO ]      std::cout << BatchClsInfos;
+2022-07-28 18:04:39 [ INFO ]                   ^~~~~~~~~~~~~
+2022-07-28 18:04:39 [ INFO ] In file included from /usr/include/c++/7/random:51:0,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/opensource/include/cpprest/asyncrt_utils.h:22,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/opensource/include/cpprest/json.h:18,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/include/MxBase/ConfigUtil/ConfigUtil.h:18,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/include/MxBase/PostProcessBases/PostProcessBase.h:18,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/include/MxBase/PostProcessBases/ClassPostProcessBase.h:11,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/include/MxBase/postprocess/include/ClassPostProcessors/Resnet50PostProcess.h:11,
+2022-07-28 18:04:39 [ INFO ]                  from /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.h:25,
+2022-07-28 18:04:39 [ INFO ]                  from /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:24:
+2022-07-28 18:04:39 [ INFO ] /usr/include/c++/7/bits/random.tcc:2598:5: note: candidate: template<class _RealType, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::extreme_value_distribution<_RealType>&)
+2022-07-28 18:04:39 [ INFO ]      operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+2022-07-28 18:04:39 [ INFO ]      ^~~~~~~~
+2022-07-28 18:04:39 [ INFO ] /usr/include/c++/7/bits/random.tcc:2598:5: note:   template argument deduction/substitution failed:
+2022-07-28 18:04:39 [ INFO ] /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:192:18: note:   'std::vector<std::vector<MxBase::ClassInfo> >' is not derived from 'const std::extreme_value_distribution<_RealType>'
+2022-07-28 18:04:39 [ INFO ]      std::cout << BatchClsInfos;
+2022-07-28 18:04:39 [ INFO ]                   ^~~~~~~~~~~~~
+2022-07-28 18:04:39 [ INFO ] In file included from /usr/include/c++/7/random:51:0,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/opensource/include/cpprest/asyncrt_utils.h:22,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/opensource/include/cpprest/json.h:18,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/include/MxBase/ConfigUtil/ConfigUtil.h:18,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/include/MxBase/PostProcessBases/PostProcessBase.h:18,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/include/MxBase/PostProcessBases/ClassPostProcessBase.h:11,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/include/MxBase/postprocess/include/ClassPostProcessors/Resnet50PostProcess.h:11,
+2022-07-28 18:04:39 [ INFO ]                  from /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.h:25,
+2022-07-28 18:04:39 [ INFO ]                  from /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:24:
+2022-07-28 18:04:39 [ INFO ] /usr/include/c++/7/bits/random.tcc:2522:5: note: candidate: template<class _RealType, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::weibull_distribution<_RealType>&)
+2022-07-28 18:04:39 [ INFO ]      operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+2022-07-28 18:04:39 [ INFO ]      ^~~~~~~~
+2022-07-28 18:04:39 [ INFO ] /usr/include/c++/7/bits/random.tcc:2522:5: note:   template argument deduction/substitution failed:
+2022-07-28 18:04:39 [ INFO ] /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:192:18: note:   'std::vector<std::vector<MxBase::ClassInfo> >' is not derived from 'const std::weibull_distribution<_RealType>'
+2022-07-28 18:04:39 [ INFO ]      std::cout << BatchClsInfos;
+2022-07-28 18:04:39 [ INFO ]                   ^~~~~~~~~~~~~
+2022-07-28 18:04:39 [ INFO ] In file included from /usr/include/c++/7/random:51:0,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/opensource/include/cpprest/asyncrt_utils.h:22,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/opensource/include/cpprest/json.h:18,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/include/MxBase/ConfigUtil/ConfigUtil.h:18,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/include/MxBase/PostProcessBases/PostProcessBase.h:18,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/include/MxBase/PostProcessBases/ClassPostProcessBase.h:11,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/include/MxBase/postprocess/include/ClassPostProcessors/Resnet50PostProcess.h:11,
+2022-07-28 18:04:39 [ INFO ]                  from /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.h:25,
+2022-07-28 18:04:39 [ INFO ]                  from /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:24:
+2022-07-28 18:04:39 [ INFO ] /usr/include/c++/7/bits/random.tcc:1731:5: note: candidate: template<class _RealType, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::exponential_distribution<_RealType>&)
+2022-07-28 18:04:39 [ INFO ]      operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+2022-07-28 18:04:39 [ INFO ]      ^~~~~~~~
+2022-07-28 18:04:39 [ INFO ] /usr/include/c++/7/bits/random.tcc:1731:5: note:   template argument deduction/substitution failed:
+2022-07-28 18:04:39 [ INFO ] /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:192:18: note:   'std::vector<std::vector<MxBase::ClassInfo> >' is not derived from 'const std::exponential_distribution<_RealType>'
+2022-07-28 18:04:39 [ INFO ]      std::cout << BatchClsInfos;
+2022-07-28 18:04:39 [ INFO ]                   ^~~~~~~~~~~~~
+2022-07-28 18:04:39 [ INFO ] In file included from /usr/include/c++/7/random:51:0,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/opensource/include/cpprest/asyncrt_utils.h:22,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/opensource/include/cpprest/json.h:18,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/include/MxBase/ConfigUtil/ConfigUtil.h:18,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/include/MxBase/PostProcessBases/PostProcessBase.h:18,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/include/MxBase/PostProcessBases/ClassPostProcessBase.h:11,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/include/MxBase/postprocess/include/ClassPostProcessors/Resnet50PostProcess.h:11,
+2022-07-28 18:04:39 [ INFO ]                  from /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.h:25,
+2022-07-28 18:04:39 [ INFO ]                  from /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:24:
+2022-07-28 18:04:39 [ INFO ] /usr/include/c++/7/bits/random.tcc:2444:5: note: candidate: template<class _RealType1, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::gamma_distribution<_RealType>&)
+2022-07-28 18:04:39 [ INFO ]      operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+2022-07-28 18:04:39 [ INFO ]      ^~~~~~~~
+2022-07-28 18:04:39 [ INFO ] /usr/include/c++/7/bits/random.tcc:2444:5: note:   template argument deduction/substitution failed:
+2022-07-28 18:04:39 [ INFO ] /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:192:18: note:   'std::vector<std::vector<MxBase::ClassInfo> >' is not derived from 'const std::gamma_distribution<_RealType>'
+2022-07-28 18:04:39 [ INFO ]      std::cout << BatchClsInfos;
+2022-07-28 18:04:39 [ INFO ]                   ^~~~~~~~~~~~~
+2022-07-28 18:04:39 [ INFO ] In file included from /usr/include/c++/7/random:51:0,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/opensource/include/cpprest/asyncrt_utils.h:22,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/opensource/include/cpprest/json.h:18,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/include/MxBase/ConfigUtil/ConfigUtil.h:18,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/include/MxBase/PostProcessBases/PostProcessBase.h:18,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/include/MxBase/PostProcessBases/ClassPostProcessBase.h:11,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/include/MxBase/postprocess/include/ClassPostProcessors/Resnet50PostProcess.h:11,
+2022-07-28 18:04:39 [ INFO ]                  from /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.h:25,
+2022-07-28 18:04:39 [ INFO ]                  from /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:24:
+2022-07-28 18:04:39 [ INFO ] /usr/include/c++/7/bits/random.tcc:1080:5: note: candidate: template<class _IntType, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::geometric_distribution<_IntType>&)
+2022-07-28 18:04:39 [ INFO ]      operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+2022-07-28 18:04:39 [ INFO ]      ^~~~~~~~
+2022-07-28 18:04:39 [ INFO ] /usr/include/c++/7/bits/random.tcc:1080:5: note:   template argument deduction/substitution failed:
+2022-07-28 18:04:39 [ INFO ] /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:192:18: note:   'std::vector<std::vector<MxBase::ClassInfo> >' is not derived from 'const std::geometric_distribution<_IntType>'
+2022-07-28 18:04:39 [ INFO ]      std::cout << BatchClsInfos;
+2022-07-28 18:04:39 [ INFO ]                   ^~~~~~~~~~~~~
+2022-07-28 18:04:39 [ INFO ] In file included from /usr/include/c++/7/random:51:0,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/opensource/include/cpprest/asyncrt_utils.h:22,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/opensource/include/cpprest/json.h:18,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/include/MxBase/ConfigUtil/ConfigUtil.h:18,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/include/MxBase/PostProcessBases/PostProcessBase.h:18,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/include/MxBase/PostProcessBases/ClassPostProcessBase.h:11,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/include/MxBase/postprocess/include/ClassPostProcessors/Resnet50PostProcess.h:11,
+2022-07-28 18:04:39 [ INFO ]                  from /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.h:25,
+2022-07-28 18:04:39 [ INFO ]                  from /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:24:
+2022-07-28 18:04:39 [ INFO ] /usr/include/c++/7/bits/random.tcc:1898:5: note: candidate: template<class _RealType1, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::normal_distribution<_RealType>&)
+2022-07-28 18:04:39 [ INFO ]      operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+2022-07-28 18:04:39 [ INFO ]      ^~~~~~~~
+2022-07-28 18:04:39 [ INFO ] /usr/include/c++/7/bits/random.tcc:1898:5: note:   template argument deduction/substitution failed:
+2022-07-28 18:04:39 [ INFO ] /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:192:18: note:   'std::vector<std::vector<MxBase::ClassInfo> >' is not derived from 'const std::normal_distribution<_RealType>'
+2022-07-28 18:04:39 [ INFO ]      std::cout << BatchClsInfos;
+2022-07-28 18:04:39 [ INFO ]                   ^~~~~~~~~~~~~
+2022-07-28 18:04:39 [ INFO ] In file included from /usr/include/c++/7/random:51:0,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/opensource/include/cpprest/asyncrt_utils.h:22,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/opensource/include/cpprest/json.h:18,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/include/MxBase/ConfigUtil/ConfigUtil.h:18,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/include/MxBase/PostProcessBases/PostProcessBase.h:18,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/include/MxBase/PostProcessBases/ClassPostProcessBase.h:11,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/include/MxBase/postprocess/include/ClassPostProcessors/Resnet50PostProcess.h:11,
+2022-07-28 18:04:39 [ INFO ]                  from /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.h:25,
+2022-07-28 18:04:39 [ INFO ]                  from /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:24:
+2022-07-28 18:04:39 [ INFO ] /usr/include/c++/7/bits/random.tcc:998:5: note: candidate: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::bernoulli_distribution&)
+2022-07-28 18:04:39 [ INFO ]      operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+2022-07-28 18:04:39 [ INFO ]      ^~~~~~~~
+2022-07-28 18:04:39 [ INFO ] /usr/include/c++/7/bits/random.tcc:998:5: note:   template argument deduction/substitution failed:
+2022-07-28 18:04:39 [ INFO ] /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:192:18: note:   cannot convert 'BatchClsInfos' (type 'std::vector<std::vector<MxBase::ClassInfo> >') to type 'const std::bernoulli_distribution&'
+2022-07-28 18:04:39 [ INFO ]      std::cout << BatchClsInfos;
+2022-07-28 18:04:39 [ INFO ]                   ^~~~~~~~~~~~~
+2022-07-28 18:04:39 [ INFO ] In file included from /usr/include/c++/7/random:51:0,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/opensource/include/cpprest/asyncrt_utils.h:22,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/opensource/include/cpprest/json.h:18,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/include/MxBase/ConfigUtil/ConfigUtil.h:18,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/include/MxBase/PostProcessBases/PostProcessBase.h:18,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/include/MxBase/PostProcessBases/ClassPostProcessBase.h:11,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/include/MxBase/postprocess/include/ClassPostProcessors/Resnet50PostProcess.h:11,
+2022-07-28 18:04:39 [ INFO ]                  from /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.h:25,
+2022-07-28 18:04:39 [ INFO ]                  from /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:24:
+2022-07-28 18:04:39 [ INFO ] /usr/include/c++/7/bits/random.tcc:2123:5: note: candidate: template<class _RealType, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::cauchy_distribution<_RealType>&)
+2022-07-28 18:04:39 [ INFO ]      operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+2022-07-28 18:04:39 [ INFO ]      ^~~~~~~~
+2022-07-28 18:04:39 [ INFO ] /usr/include/c++/7/bits/random.tcc:2123:5: note:   template argument deduction/substitution failed:
+2022-07-28 18:04:39 [ INFO ] /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:192:18: note:   'std::vector<std::vector<MxBase::ClassInfo> >' is not derived from 'const std::cauchy_distribution<_RealType>'
+2022-07-28 18:04:39 [ INFO ]      std::cout << BatchClsInfos;
+2022-07-28 18:04:39 [ INFO ]                   ^~~~~~~~~~~~~
+2022-07-28 18:04:39 [ INFO ] In file included from /usr/include/c++/7/random:51:0,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/opensource/include/cpprest/asyncrt_utils.h:22,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/opensource/include/cpprest/json.h:18,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/include/MxBase/ConfigUtil/ConfigUtil.h:18,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/include/MxBase/PostProcessBases/PostProcessBase.h:18,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/include/MxBase/PostProcessBases/ClassPostProcessBase.h:11,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/include/MxBase/postprocess/include/ClassPostProcessors/Resnet50PostProcess.h:11,
+2022-07-28 18:04:39 [ INFO ]                  from /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.h:25,
+2022-07-28 18:04:39 [ INFO ]                  from /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:24:
+2022-07-28 18:04:39 [ INFO ] /usr/include/c++/7/bits/random.tcc:936:5: note: candidate: template<class _RealType, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::uniform_real_distribution<_IntType>&)
+2022-07-28 18:04:39 [ INFO ]      operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+2022-07-28 18:04:39 [ INFO ]      ^~~~~~~~
+2022-07-28 18:04:39 [ INFO ] /usr/include/c++/7/bits/random.tcc:936:5: note:   template argument deduction/substitution failed:
+2022-07-28 18:04:39 [ INFO ] /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:192:18: note:   'std::vector<std::vector<MxBase::ClassInfo> >' is not derived from 'const std::uniform_real_distribution<_IntType>'
+2022-07-28 18:04:39 [ INFO ]      std::cout << BatchClsInfos;
+2022-07-28 18:04:39 [ INFO ]                   ^~~~~~~~~~~~~
+2022-07-28 18:04:39 [ INFO ] In file included from /usr/include/c++/7/random:51:0,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/opensource/include/cpprest/asyncrt_utils.h:22,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/opensource/include/cpprest/json.h:18,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/include/MxBase/ConfigUtil/ConfigUtil.h:18,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/include/MxBase/PostProcessBases/PostProcessBase.h:18,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/include/MxBase/PostProcessBases/ClassPostProcessBase.h:11,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/include/MxBase/postprocess/include/ClassPostProcessors/Resnet50PostProcess.h:11,
+2022-07-28 18:04:39 [ INFO ]                  from /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.h:25,
+2022-07-28 18:04:39 [ INFO ]                  from /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:24:
+2022-07-28 18:04:39 [ INFO ] /usr/include/c++/7/bits/random.tcc:877:5: note: candidate: template<class _IntType, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::uniform_int_distribution<_IntType>&)
+2022-07-28 18:04:39 [ INFO ]      operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+2022-07-28 18:04:39 [ INFO ]      ^~~~~~~~
+2022-07-28 18:04:39 [ INFO ] /usr/include/c++/7/bits/random.tcc:877:5: note:   template argument deduction/substitution failed:
+2022-07-28 18:04:39 [ INFO ] /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:192:18: note:   'std::vector<std::vector<MxBase::ClassInfo> >' is not derived from 'const std::uniform_int_distribution<_IntType>'
+2022-07-28 18:04:39 [ INFO ]      std::cout << BatchClsInfos;
+2022-07-28 18:04:39 [ INFO ]                   ^~~~~~~~~~~~~
+2022-07-28 18:04:39 [ INFO ] In file included from /usr/include/c++/7/random:51:0,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/opensource/include/cpprest/asyncrt_utils.h:22,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/opensource/include/cpprest/json.h:18,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/include/MxBase/ConfigUtil/ConfigUtil.h:18,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/include/MxBase/PostProcessBases/PostProcessBase.h:18,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/include/MxBase/PostProcessBases/ClassPostProcessBase.h:11,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/include/MxBase/postprocess/include/ClassPostProcessors/Resnet50PostProcess.h:11,
+2022-07-28 18:04:39 [ INFO ]                  from /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.h:25,
+2022-07-28 18:04:39 [ INFO ]                  from /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:24:
+2022-07-28 18:04:39 [ INFO ] /usr/include/c++/7/bits/random.tcc:477:5: note: candidate: template<class _UIntType1, long unsigned int __w1, long unsigned int __n1, long unsigned int __m1, long unsigned int __r1, _UIntType1 __a1, long unsigned int __u1, _UIntType1 __d1, long unsigned int __s1, _UIntType1 __b1, long unsigned int __t1, _UIntType1 __c1, long unsigned int __l1, _UIntType1 __f1, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::mersenne_twister_engine<_UIntType, __w, __n, __m, __r, __a, __u, __d, __s, __b, __t, __c, __l, __f>&)
+2022-07-28 18:04:39 [ INFO ]      operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+2022-07-28 18:04:39 [ INFO ]      ^~~~~~~~
+2022-07-28 18:04:39 [ INFO ] /usr/include/c++/7/bits/random.tcc:477:5: note:   template argument deduction/substitution failed:
+2022-07-28 18:04:39 [ INFO ] /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:192:18: note:   'std::vector<std::vector<MxBase::ClassInfo> >' is not derived from 'const std::mersenne_twister_engine<_UIntType, __w, __n, __m, __r, __a, __u, __d, __s, __b, __t, __c, __l, __f>'
+2022-07-28 18:04:39 [ INFO ]      std::cout << BatchClsInfos;
+2022-07-28 18:04:39 [ INFO ]                   ^~~~~~~~~~~~~
+2022-07-28 18:04:39 [ INFO ] In file included from /usr/include/c++/7/random:49:0,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/opensource/include/cpprest/asyncrt_utils.h:22,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/opensource/include/cpprest/json.h:18,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/include/MxBase/ConfigUtil/ConfigUtil.h:18,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/include/MxBase/PostProcessBases/PostProcessBase.h:18,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/include/MxBase/PostProcessBases/ClassPostProcessBase.h:11,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/include/MxBase/postprocess/include/ClassPostProcessors/Resnet50PostProcess.h:11,
+2022-07-28 18:04:39 [ INFO ]                  from /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.h:25,
+2022-07-28 18:04:39 [ INFO ]                  from /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:24:
+2022-07-28 18:04:39 [ INFO ] /usr/include/c++/7/bits/random.h:1269:5: note: candidate: template<class _RandomNumberEngine, long unsigned int __w, class _UIntType, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::independent_bits_engine<_RandomNumberEngine, __w, _UIntType>&)
+2022-07-28 18:04:39 [ INFO ]      operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+2022-07-28 18:04:39 [ INFO ]      ^~~~~~~~
+2022-07-28 18:04:39 [ INFO ] /usr/include/c++/7/bits/random.h:1269:5: note:   template argument deduction/substitution failed:
+2022-07-28 18:04:39 [ INFO ] /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:192:18: note:   'std::vector<std::vector<MxBase::ClassInfo> >' is not derived from 'const std::independent_bits_engine<_RandomNumberEngine, __w, _UIntType>'
+2022-07-28 18:04:39 [ INFO ]      std::cout << BatchClsInfos;
+2022-07-28 18:04:39 [ INFO ]                   ^~~~~~~~~~~~~
+2022-07-28 18:04:39 [ INFO ] In file included from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/opensource/include/opencv4/opencv2/flann/lsh_table.h:42:0,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/opensource/include/opencv4/opencv2/flann/lsh_index.h:49,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/opensource/include/opencv4/opencv2/flann/all_indices.h:44,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/opensource/include/opencv4/opencv2/flann/flann_base.hpp:44,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/opensource/include/opencv4/opencv2/flann.hpp:48,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/opensource/include/opencv4/opencv2/opencv.hpp:65,
+2022-07-28 18:04:39 [ INFO ]                  from /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.h:23,
+2022-07-28 18:04:39 [ INFO ]                  from /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:24:
+2022-07-28 18:04:39 [ INFO ] /usr/include/c++/7/iomanip:363:5: note: candidate: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, std::_Put_time<_CharT>)
+2022-07-28 18:04:39 [ INFO ]      operator<<(basic_ostream<_CharT, _Traits>& __os, _Put_time<_CharT> __f)
+2022-07-28 18:04:39 [ INFO ]      ^~~~~~~~
+2022-07-28 18:04:39 [ INFO ] /usr/include/c++/7/iomanip:363:5: note:   template argument deduction/substitution failed:
+2022-07-28 18:04:39 [ INFO ] /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:192:18: note:   'std::vector<std::vector<MxBase::ClassInfo> >' is not derived from 'std::_Put_time<_CharT>'
+2022-07-28 18:04:39 [ INFO ]      std::cout << BatchClsInfos;
+2022-07-28 18:04:39 [ INFO ]                   ^~~~~~~~~~~~~
+2022-07-28 18:04:39 [ INFO ] In file included from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/opensource/include/opencv4/opencv2/flann/lsh_table.h:42:0,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/opensource/include/opencv4/opencv2/flann/lsh_index.h:49,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/opensource/include/opencv4/opencv2/flann/all_indices.h:44,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/opensource/include/opencv4/opencv2/flann/flann_base.hpp:44,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/opensource/include/opencv4/opencv2/flann.hpp:48,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/opensource/include/opencv4/opencv2/opencv.hpp:65,
+2022-07-28 18:04:39 [ INFO ]                  from /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.h:23,
+2022-07-28 18:04:39 [ INFO ]                  from /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:24:
+2022-07-28 18:04:39 [ INFO ] /usr/include/c++/7/iomanip:311:5: note: candidate: template<class _CharT, class _Traits, class _MoneyT> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, std::_Put_money<_MoneyT>)
+2022-07-28 18:04:39 [ INFO ]      operator<<(basic_ostream<_CharT, _Traits>& __os, _Put_money<_MoneyT> __f)
+2022-07-28 18:04:39 [ INFO ]      ^~~~~~~~
+2022-07-28 18:04:39 [ INFO ] /usr/include/c++/7/iomanip:311:5: note:   template argument deduction/substitution failed:
+2022-07-28 18:04:39 [ INFO ] /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:192:18: note:   'std::vector<std::vector<MxBase::ClassInfo> >' is not derived from 'std::_Put_money<_MoneyT>'
+2022-07-28 18:04:39 [ INFO ]      std::cout << BatchClsInfos;
+2022-07-28 18:04:39 [ INFO ]                   ^~~~~~~~~~~~~
+2022-07-28 18:04:39 [ INFO ] In file included from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/opensource/include/opencv4/opencv2/flann/lsh_table.h:42:0,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/opensource/include/opencv4/opencv2/flann/lsh_index.h:49,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/opensource/include/opencv4/opencv2/flann/all_indices.h:44,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/opensource/include/opencv4/opencv2/flann/flann_base.hpp:44,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/opensource/include/opencv4/opencv2/flann.hpp:48,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/opensource/include/opencv4/opencv2/opencv.hpp:65,
+2022-07-28 18:04:39 [ INFO ]                  from /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.h:23,
+2022-07-28 18:04:39 [ INFO ]                  from /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:24:
+2022-07-28 18:04:39 [ INFO ] /usr/include/c++/7/iomanip:238:5: note: candidate: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, std::_Setw)
+2022-07-28 18:04:39 [ INFO ]      operator<<(basic_ostream<_CharT, _Traits>& __os, _Setw __f)
+2022-07-28 18:04:39 [ INFO ]      ^~~~~~~~
+2022-07-28 18:04:39 [ INFO ] /usr/include/c++/7/iomanip:238:5: note:   template argument deduction/substitution failed:
+2022-07-28 18:04:39 [ INFO ] /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:192:18: note:   cannot convert 'BatchClsInfos' (type 'std::vector<std::vector<MxBase::ClassInfo> >') to type 'std::_Setw'
+2022-07-28 18:04:39 [ INFO ]      std::cout << BatchClsInfos;
+2022-07-28 18:04:39 [ INFO ]                   ^~~~~~~~~~~~~
+2022-07-28 18:04:39 [ INFO ] In file included from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/opensource/include/opencv4/opencv2/flann/lsh_table.h:42:0,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/opensource/include/opencv4/opencv2/flann/lsh_index.h:49,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/opensource/include/opencv4/opencv2/flann/all_indices.h:44,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/opensource/include/opencv4/opencv2/flann/flann_base.hpp:44,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/opensource/include/opencv4/opencv2/flann.hpp:48,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/opensource/include/opencv4/opencv2/opencv.hpp:65,
+2022-07-28 18:04:39 [ INFO ]                  from /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.h:23,
+2022-07-28 18:04:39 [ INFO ]                  from /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:24:
+2022-07-28 18:04:39 [ INFO ] /usr/include/c++/7/iomanip:208:5: note: candidate: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, std::_Setprecision)
+2022-07-28 18:04:39 [ INFO ]      operator<<(basic_ostream<_CharT, _Traits>& __os, _Setprecision __f)
+2022-07-28 18:04:39 [ INFO ]      ^~~~~~~~
+2022-07-28 18:04:39 [ INFO ] /usr/include/c++/7/iomanip:208:5: note:   template argument deduction/substitution failed:
+2022-07-28 18:04:39 [ INFO ] /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:192:18: note:   cannot convert 'BatchClsInfos' (type 'std::vector<std::vector<MxBase::ClassInfo> >') to type 'std::_Setprecision'
+2022-07-28 18:04:39 [ INFO ]      std::cout << BatchClsInfos;
+2022-07-28 18:04:39 [ INFO ]                   ^~~~~~~~~~~~~
+2022-07-28 18:04:39 [ INFO ] In file included from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/opensource/include/opencv4/opencv2/flann/lsh_table.h:42:0,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/opensource/include/opencv4/opencv2/flann/lsh_index.h:49,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/opensource/include/opencv4/opencv2/flann/all_indices.h:44,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/opensource/include/opencv4/opencv2/flann/flann_base.hpp:44,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/opensource/include/opencv4/opencv2/flann.hpp:48,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/opensource/include/opencv4/opencv2/opencv.hpp:65,
+2022-07-28 18:04:39 [ INFO ]                  from /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.h:23,
+2022-07-28 18:04:39 [ INFO ]                  from /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:24:
+2022-07-28 18:04:39 [ INFO ] /usr/include/c++/7/iomanip:178:5: note: candidate: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, std::_Setfill<_CharT>)
+2022-07-28 18:04:39 [ INFO ]      operator<<(basic_ostream<_CharT, _Traits>& __os, _Setfill<_CharT> __f)
+2022-07-28 18:04:39 [ INFO ]      ^~~~~~~~
+2022-07-28 18:04:39 [ INFO ] /usr/include/c++/7/iomanip:178:5: note:   template argument deduction/substitution failed:
+2022-07-28 18:04:39 [ INFO ] /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:192:18: note:   'std::vector<std::vector<MxBase::ClassInfo> >' is not derived from 'std::_Setfill<_CharT>'
+2022-07-28 18:04:39 [ INFO ]      std::cout << BatchClsInfos;
+2022-07-28 18:04:39 [ INFO ]                   ^~~~~~~~~~~~~
+2022-07-28 18:04:39 [ INFO ] In file included from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/opensource/include/opencv4/opencv2/flann/lsh_table.h:42:0,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/opensource/include/opencv4/opencv2/flann/lsh_index.h:49,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/opensource/include/opencv4/opencv2/flann/all_indices.h:44,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/opensource/include/opencv4/opencv2/flann/flann_base.hpp:44,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/opensource/include/opencv4/opencv2/flann.hpp:48,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/opensource/include/opencv4/opencv2/opencv.hpp:65,
+2022-07-28 18:04:39 [ INFO ]                  from /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.h:23,
+2022-07-28 18:04:39 [ INFO ]                  from /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:24:
+2022-07-28 18:04:39 [ INFO ] /usr/include/c++/7/iomanip:143:5: note: candidate: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, std::_Setbase)
+2022-07-28 18:04:39 [ INFO ]      operator<<(basic_ostream<_CharT, _Traits>& __os, _Setbase __f)
+2022-07-28 18:04:39 [ INFO ]      ^~~~~~~~
+2022-07-28 18:04:39 [ INFO ] /usr/include/c++/7/iomanip:143:5: note:   template argument deduction/substitution failed:
+2022-07-28 18:04:39 [ INFO ] /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:192:18: note:   cannot convert 'BatchClsInfos' (type 'std::vector<std::vector<MxBase::ClassInfo> >') to type 'std::_Setbase'
+2022-07-28 18:04:39 [ INFO ]      std::cout << BatchClsInfos;
+2022-07-28 18:04:39 [ INFO ]                   ^~~~~~~~~~~~~
+2022-07-28 18:04:39 [ INFO ] In file included from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/opensource/include/opencv4/opencv2/flann/lsh_table.h:42:0,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/opensource/include/opencv4/opencv2/flann/lsh_index.h:49,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/opensource/include/opencv4/opencv2/flann/all_indices.h:44,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/opensource/include/opencv4/opencv2/flann/flann_base.hpp:44,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/opensource/include/opencv4/opencv2/flann.hpp:48,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/opensource/include/opencv4/opencv2/opencv.hpp:65,
+2022-07-28 18:04:39 [ INFO ]                  from /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.h:23,
+2022-07-28 18:04:39 [ INFO ]                  from /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:24:
+2022-07-28 18:04:39 [ INFO ] /usr/include/c++/7/iomanip:109:5: note: candidate: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, std::_Setiosflags)
+2022-07-28 18:04:39 [ INFO ]      operator<<(basic_ostream<_CharT, _Traits>& __os, _Setiosflags __f)
+2022-07-28 18:04:39 [ INFO ]      ^~~~~~~~
+2022-07-28 18:04:39 [ INFO ] /usr/include/c++/7/iomanip:109:5: note:   template argument deduction/substitution failed:
+2022-07-28 18:04:39 [ INFO ] /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:192:18: note:   cannot convert 'BatchClsInfos' (type 'std::vector<std::vector<MxBase::ClassInfo> >') to type 'std::_Setiosflags'
+2022-07-28 18:04:39 [ INFO ]      std::cout << BatchClsInfos;
+2022-07-28 18:04:39 [ INFO ]                   ^~~~~~~~~~~~~
+2022-07-28 18:04:39 [ INFO ] In file included from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/opensource/include/opencv4/opencv2/flann/lsh_table.h:42:0,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/opensource/include/opencv4/opencv2/flann/lsh_index.h:49,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/opensource/include/opencv4/opencv2/flann/all_indices.h:44,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/opensource/include/opencv4/opencv2/flann/flann_base.hpp:44,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/opensource/include/opencv4/opencv2/flann.hpp:48,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/opensource/include/opencv4/opencv2/opencv.hpp:65,
+2022-07-28 18:04:39 [ INFO ]                  from /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.h:23,
+2022-07-28 18:04:39 [ INFO ]                  from /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:24:
+2022-07-28 18:04:39 [ INFO ] /usr/include/c++/7/iomanip:79:5: note: candidate: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, std::_Resetiosflags)
+2022-07-28 18:04:39 [ INFO ]      operator<<(basic_ostream<_CharT, _Traits>& __os, _Resetiosflags __f)
+2022-07-28 18:04:39 [ INFO ]      ^~~~~~~~
+2022-07-28 18:04:39 [ INFO ] /usr/include/c++/7/iomanip:79:5: note:   template argument deduction/substitution failed:
+2022-07-28 18:04:39 [ INFO ] /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:192:18: note:   cannot convert 'BatchClsInfos' (type 'std::vector<std::vector<MxBase::ClassInfo> >') to type 'std::_Resetiosflags'
+2022-07-28 18:04:39 [ INFO ]      std::cout << BatchClsInfos;
+2022-07-28 18:04:39 [ INFO ]                   ^~~~~~~~~~~~~
+2022-07-28 18:04:39 [ INFO ] In file included from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/opensource/include/opencv4/opencv2/core/cvstd.inl.hpp:47:0,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/opensource/include/opencv4/opencv2/core.hpp:3306,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/opensource/include/opencv4/opencv2/opencv.hpp:52,
+2022-07-28 18:04:39 [ INFO ]                  from /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.h:23,
+2022-07-28 18:04:39 [ INFO ]                  from /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:24:
+2022-07-28 18:04:39 [ INFO ] /usr/include/c++/7/complex:528:5: note: candidate: template<class _Tp, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::complex<_Tp>&)
+2022-07-28 18:04:39 [ INFO ]      operator<<(basic_ostream<_CharT, _Traits>& __os, const complex<_Tp>& __x)
+2022-07-28 18:04:39 [ INFO ]      ^~~~~~~~
+2022-07-28 18:04:39 [ INFO ] /usr/include/c++/7/complex:528:5: note:   template argument deduction/substitution failed:
+2022-07-28 18:04:39 [ INFO ] /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:192:18: note:   'std::vector<std::vector<MxBase::ClassInfo> >' is not derived from 'const std::complex<_Tp>'
+2022-07-28 18:04:39 [ INFO ]      std::cout << BatchClsInfos;
+2022-07-28 18:04:39 [ INFO ]                   ^~~~~~~~~~~~~
+2022-07-28 18:04:39 [ INFO ] In file included from /usr/include/c++/7/memory:81:0,
+2022-07-28 18:04:39 [ INFO ]                  from /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:21:
+2022-07-28 18:04:39 [ INFO ] /usr/include/c++/7/bits/shared_ptr.h:66:5: note: candidate: template<class _Ch, class _Tr, class _Tp, __gnu_cxx::_Lock_policy _Lp> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::__shared_ptr<_Tp, _Lp>&)
+2022-07-28 18:04:39 [ INFO ]      operator<<(std::basic_ostream<_Ch, _Tr>& __os,
+2022-07-28 18:04:39 [ INFO ]      ^~~~~~~~
+2022-07-28 18:04:39 [ INFO ] /usr/include/c++/7/bits/shared_ptr.h:66:5: note:   template argument deduction/substitution failed:
+2022-07-28 18:04:39 [ INFO ] /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:192:18: note:   'std::vector<std::vector<MxBase::ClassInfo> >' is not derived from 'const std::__shared_ptr<_Tp, _Lp>'
+2022-07-28 18:04:39 [ INFO ]      std::cout << BatchClsInfos;
+2022-07-28 18:04:39 [ INFO ]                   ^~~~~~~~~~~~~
+2022-07-28 18:04:39 [ INFO ] In file included from /usr/include/c++/7/iostream:39:0,
+2022-07-28 18:04:39 [ INFO ]                  from /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:18:
+2022-07-28 18:04:39 [ INFO ] /usr/include/c++/7/ostream:682:5: note: candidate: template<class _Ostream, class _Tp> typename std::enable_if<std::__and_<std::__not_<std::is_lvalue_reference<_Tp> >, std::__is_convertible_to_basic_ostream<_Ostream>, std::__is_insertable<typename std::__is_convertible_to_basic_ostream<_Tp>::__ostream_type, const _Tp&, void> >::value, typename std::__is_convertible_to_basic_ostream<_Tp>::__ostream_type>::type std::operator<<(_Ostream&&, const _Tp&)
+2022-07-28 18:04:39 [ INFO ]      operator<<(_Ostream&& __os, const _Tp& __x)
+2022-07-28 18:04:39 [ INFO ]      ^~~~~~~~
+2022-07-28 18:04:39 [ INFO ] /usr/include/c++/7/ostream:682:5: note:   template argument deduction/substitution failed:
+2022-07-28 18:04:39 [ INFO ] /usr/include/c++/7/ostream: In substitution of 'template<class _Ostream, class _Tp> typename std::enable_if<std::__and_<std::__not_<std::is_lvalue_reference<_Tp> >, std::__is_convertible_to_basic_ostream<_Ostream>, std::__is_insertable<typename std::__is_convertible_to_basic_ostream<_Tp>::__ostream_type, const _Tp&, void> >::value, typename std::__is_convertible_to_basic_ostream<_Tp>::__ostream_type>::type std::operator<<(_Ostream&&, const _Tp&) [with _Ostream = std::basic_ostream<char>&; _Tp = std::vector<std::vector<MxBase::ClassInfo> >]':
+2022-07-28 18:04:39 [ INFO ] /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:192:18:   required from here
+2022-07-28 18:04:39 [ ERROR ] /usr/include/c++/7/ostream:682:5: error: no type named 'type' in 'struct std::enable_if<false, std::basic_ostream<char>&>'
+2022-07-28 18:04:39 [ INFO ] /usr/include/c++/7/ostream:574:5: note: candidate: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const unsigned char*)
+2022-07-28 18:04:39 [ INFO ]      operator<<(basic_ostream<char, _Traits>& __out, const unsigned char* __s)
+2022-07-28 18:04:39 [ INFO ]      ^~~~~~~~
+2022-07-28 18:04:39 [ INFO ] /usr/include/c++/7/ostream:574:5: note:   template argument deduction/substitution failed:
+2022-07-28 18:04:39 [ INFO ] /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:192:18: note:   cannot convert 'BatchClsInfos' (type 'std::vector<std::vector<MxBase::ClassInfo> >') to type 'const unsigned char*'
+2022-07-28 18:04:39 [ INFO ]      std::cout << BatchClsInfos;
+2022-07-28 18:04:39 [ INFO ]                   ^~~~~~~~~~~~~
+2022-07-28 18:04:39 [ INFO ] In file included from /usr/include/c++/7/iostream:39:0,
+2022-07-28 18:04:39 [ INFO ]                  from /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:18:
+2022-07-28 18:04:39 [ INFO ] /usr/include/c++/7/ostream:569:5: note: candidate: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const signed char*)
+2022-07-28 18:04:39 [ INFO ]      operator<<(basic_ostream<char, _Traits>& __out, const signed char* __s)
+2022-07-28 18:04:39 [ INFO ]      ^~~~~~~~
+2022-07-28 18:04:39 [ INFO ] /usr/include/c++/7/ostream:569:5: note:   template argument deduction/substitution failed:
+2022-07-28 18:04:39 [ INFO ] /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:192:18: note:   cannot convert 'BatchClsInfos' (type 'std::vector<std::vector<MxBase::ClassInfo> >') to type 'const signed char*'
+2022-07-28 18:04:39 [ INFO ]      std::cout << BatchClsInfos;
+2022-07-28 18:04:39 [ INFO ]                   ^~~~~~~~~~~~~
+2022-07-28 18:04:39 [ INFO ] In file included from /usr/include/c++/7/iostream:39:0,
+2022-07-28 18:04:39 [ INFO ]                  from /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:18:
+2022-07-28 18:04:39 [ INFO ] /usr/include/c++/7/ostream:556:5: note: candidate: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const char*)
+2022-07-28 18:04:39 [ INFO ]      operator<<(basic_ostream<char, _Traits>& __out, const char* __s)
+2022-07-28 18:04:39 [ INFO ]      ^~~~~~~~
+2022-07-28 18:04:39 [ INFO ] /usr/include/c++/7/ostream:556:5: note:   template argument deduction/substitution failed:
+2022-07-28 18:04:39 [ INFO ] /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:192:18: note:   cannot convert 'BatchClsInfos' (type 'std::vector<std::vector<MxBase::ClassInfo> >') to type 'const char*'
+2022-07-28 18:04:39 [ INFO ]      std::cout << BatchClsInfos;
+2022-07-28 18:04:39 [ INFO ]                   ^~~~~~~~~~~~~
+2022-07-28 18:04:39 [ INFO ] In file included from /usr/include/c++/7/ostream:693:0,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/include/c++/7/iostream:39,
+2022-07-28 18:04:39 [ INFO ]                  from /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:18:
+2022-07-28 18:04:39 [ INFO ] /usr/include/c++/7/bits/ostream.tcc:321:5: note: candidate: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const char*)
+2022-07-28 18:04:39 [ INFO ]      operator<<(basic_ostream<_CharT, _Traits>& __out, const char* __s)
+2022-07-28 18:04:39 [ INFO ]      ^~~~~~~~
+2022-07-28 18:04:39 [ INFO ] /usr/include/c++/7/bits/ostream.tcc:321:5: note:   template argument deduction/substitution failed:
+2022-07-28 18:04:39 [ INFO ] /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:192:18: note:   cannot convert 'BatchClsInfos' (type 'std::vector<std::vector<MxBase::ClassInfo> >') to type 'const char*'
+2022-07-28 18:04:39 [ INFO ]      std::cout << BatchClsInfos;
+2022-07-28 18:04:39 [ INFO ]                   ^~~~~~~~~~~~~
+2022-07-28 18:04:39 [ INFO ] In file included from /usr/include/c++/7/iostream:39:0,
+2022-07-28 18:04:39 [ INFO ]                  from /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:18:
+2022-07-28 18:04:39 [ INFO ] /usr/include/c++/7/ostream:539:5: note: candidate: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const _CharT*)
+2022-07-28 18:04:39 [ INFO ]      operator<<(basic_ostream<_CharT, _Traits>& __out, const _CharT* __s)
+2022-07-28 18:04:39 [ INFO ]      ^~~~~~~~
+2022-07-28 18:04:39 [ INFO ] /usr/include/c++/7/ostream:539:5: note:   template argument deduction/substitution failed:
+2022-07-28 18:04:39 [ INFO ] /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:192:18: note:   mismatched types 'const _CharT*' and 'std::vector<std::vector<MxBase::ClassInfo> >'
+2022-07-28 18:04:39 [ INFO ]      std::cout << BatchClsInfos;
+2022-07-28 18:04:39 [ INFO ]                   ^~~~~~~~~~~~~
+2022-07-28 18:04:39 [ INFO ] In file included from /usr/include/c++/7/iostream:39:0,
+2022-07-28 18:04:39 [ INFO ]                  from /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:18:
+2022-07-28 18:04:39 [ INFO ] /usr/include/c++/7/ostream:519:5: note: candidate: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, unsigned char)
+2022-07-28 18:04:39 [ INFO ]      operator<<(basic_ostream<char, _Traits>& __out, unsigned char __c)
+2022-07-28 18:04:39 [ INFO ]      ^~~~~~~~
+2022-07-28 18:04:39 [ INFO ] /usr/include/c++/7/ostream:519:5: note:   template argument deduction/substitution failed:
+2022-07-28 18:04:39 [ INFO ] /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:192:18: note:   cannot convert 'BatchClsInfos' (type 'std::vector<std::vector<MxBase::ClassInfo> >') to type 'unsigned char'
+2022-07-28 18:04:39 [ INFO ]      std::cout << BatchClsInfos;
+2022-07-28 18:04:39 [ INFO ]                   ^~~~~~~~~~~~~
+2022-07-28 18:04:39 [ INFO ] In file included from /usr/include/c++/7/iostream:39:0,
+2022-07-28 18:04:39 [ INFO ]                  from /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:18:
+2022-07-28 18:04:39 [ INFO ] /usr/include/c++/7/ostream:514:5: note: candidate: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, signed char)
+2022-07-28 18:04:39 [ INFO ]      operator<<(basic_ostream<char, _Traits>& __out, signed char __c)
+2022-07-28 18:04:39 [ INFO ]      ^~~~~~~~
+2022-07-28 18:04:39 [ INFO ] /usr/include/c++/7/ostream:514:5: note:   template argument deduction/substitution failed:
+2022-07-28 18:04:39 [ INFO ] /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:192:18: note:   cannot convert 'BatchClsInfos' (type 'std::vector<std::vector<MxBase::ClassInfo> >') to type 'signed char'
+2022-07-28 18:04:39 [ INFO ]      std::cout << BatchClsInfos;
+2022-07-28 18:04:39 [ INFO ]                   ^~~~~~~~~~~~~
+2022-07-28 18:04:39 [ INFO ] In file included from /usr/include/c++/7/iostream:39:0,
+2022-07-28 18:04:39 [ INFO ]                  from /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:18:
+2022-07-28 18:04:39 [ INFO ] /usr/include/c++/7/ostream:508:5: note: candidate: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, char)
+2022-07-28 18:04:39 [ INFO ]      operator<<(basic_ostream<char, _Traits>& __out, char __c)
+2022-07-28 18:04:39 [ INFO ]      ^~~~~~~~
+2022-07-28 18:04:39 [ INFO ] /usr/include/c++/7/ostream:508:5: note:   template argument deduction/substitution failed:
+2022-07-28 18:04:39 [ INFO ] /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:192:18: note:   cannot convert 'BatchClsInfos' (type 'std::vector<std::vector<MxBase::ClassInfo> >') to type 'char'
+2022-07-28 18:04:39 [ INFO ]      std::cout << BatchClsInfos;
+2022-07-28 18:04:39 [ INFO ]                   ^~~~~~~~~~~~~
+2022-07-28 18:04:39 [ INFO ] In file included from /usr/include/c++/7/iostream:39:0,
+2022-07-28 18:04:39 [ INFO ]                  from /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:18:
+2022-07-28 18:04:39 [ INFO ] /usr/include/c++/7/ostream:502:5: note: candidate: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, char)
+2022-07-28 18:04:39 [ INFO ]      operator<<(basic_ostream<_CharT, _Traits>& __out, char __c)
+2022-07-28 18:04:39 [ INFO ]      ^~~~~~~~
+2022-07-28 18:04:39 [ INFO ] /usr/include/c++/7/ostream:502:5: note:   template argument deduction/substitution failed:
+2022-07-28 18:04:39 [ INFO ] /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:192:18: note:   cannot convert 'BatchClsInfos' (type 'std::vector<std::vector<MxBase::ClassInfo> >') to type 'char'
+2022-07-28 18:04:39 [ INFO ]      std::cout << BatchClsInfos;
+2022-07-28 18:04:39 [ INFO ]                   ^~~~~~~~~~~~~
+2022-07-28 18:04:39 [ INFO ] In file included from /usr/include/c++/7/iostream:39:0,
+2022-07-28 18:04:39 [ INFO ]                  from /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:18:
+2022-07-28 18:04:39 [ INFO ] /usr/include/c++/7/ostream:497:5: note: candidate: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, _CharT)
+2022-07-28 18:04:39 [ INFO ]      operator<<(basic_ostream<_CharT, _Traits>& __out, _CharT __c)
+2022-07-28 18:04:39 [ INFO ]      ^~~~~~~~
+2022-07-28 18:04:39 [ INFO ] /usr/include/c++/7/ostream:497:5: note:   template argument deduction/substitution failed:
+2022-07-28 18:04:39 [ INFO ] /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:192:18: note:   deduced conflicting types for parameter '_CharT' ('char' and 'std::vector<std::vector<MxBase::ClassInfo> >')
+2022-07-28 18:04:39 [ INFO ]      std::cout << BatchClsInfos;
+2022-07-28 18:04:39 [ INFO ]                   ^~~~~~~~~~~~~
+2022-07-28 18:04:39 [ INFO ] In file included from /usr/include/c++/7/bits/ios_base.h:46:0,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/include/c++/7/ios:42,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/include/c++/7/ostream:38,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/include/c++/7/iostream:39,
+2022-07-28 18:04:39 [ INFO ]                  from /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:18:
+2022-07-28 18:04:39 [ ERROR ] /usr/include/c++/7/system_error:217:5: note: candidate: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::error_code&)
+2022-07-28 18:04:39 [ INFO ]      operator<<(basic_ostream<_CharT, _Traits>& __os, const error_code& __e)
+2022-07-28 18:04:39 [ INFO ]      ^~~~~~~~
+2022-07-28 18:04:39 [ ERROR ] /usr/include/c++/7/system_error:217:5: note:   template argument deduction/substitution failed:
+2022-07-28 18:04:39 [ INFO ] /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:192:18: note:   cannot convert 'BatchClsInfos' (type 'std::vector<std::vector<MxBase::ClassInfo> >') to type 'const std::error_code&'
+2022-07-28 18:04:39 [ INFO ]      std::cout << BatchClsInfos;
+2022-07-28 18:04:39 [ INFO ]                   ^~~~~~~~~~~~~
+2022-07-28 18:04:39 [ INFO ] In file included from /usr/include/c++/7/string:52:0,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/include/c++/7/bits/locale_classes.h:40,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/include/c++/7/bits/ios_base.h:41,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/include/c++/7/ios:42,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/include/c++/7/ostream:38,
+2022-07-28 18:04:39 [ INFO ]                  from /usr/include/c++/7/iostream:39,
+2022-07-28 18:04:39 [ INFO ]                  from /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:18:
+2022-07-28 18:04:39 [ INFO ] /usr/include/c++/7/bits/basic_string.h:6284:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::basic_string<_CharT, _Traits, _Alloc>&)
+2022-07-28 18:04:39 [ INFO ]      operator<<(basic_ostream<_CharT, _Traits>& __os,
+2022-07-28 18:04:39 [ INFO ]      ^~~~~~~~
+2022-07-28 18:04:39 [ INFO ] /usr/include/c++/7/bits/basic_string.h:6284:5: note:   template argument deduction/substitution failed:
+2022-07-28 18:04:39 [ INFO ] /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:192:18: note:   'std::vector<std::vector<MxBase::ClassInfo> >' is not derived from 'const std::basic_string<_CharT, _Traits, _Alloc>'
+2022-07-28 18:04:39 [ INFO ]      std::cout << BatchClsInfos;
+2022-07-28 18:04:39 [ INFO ]                   ^~~~~~~~~~~~~
+2022-07-28 18:04:40 [ INFO ] src/CMakeFiles/Resnet18_Mxbase.dir/build.make:86: recipe for target 'src/CMakeFiles/Resnet18_Mxbase.dir/Resnet18Classify.cpp.o' failed
+2022-07-28 18:04:40 [ INFO ] make[2]: *** [src/CMakeFiles/Resnet18_Mxbase.dir/Resnet18Classify.cpp.o] Error 1
+2022-07-28 18:04:40 [ INFO ] CMakeFiles/Makefile2:85: recipe for target 'src/CMakeFiles/Resnet18_Mxbase.dir/all' failed
+2022-07-28 18:04:40 [ INFO ] make[1]: *** [src/CMakeFiles/Resnet18_Mxbase.dir/all] Error 2
+2022-07-28 18:04:40 [ INFO ] Makefile:129: recipe for target 'all' failed
+2022-07-28 18:04:40 [ INFO ] make: *** [all] Error 2
+2022-07-28 18:04:40 [ INFO ] Execution failed with exit status: 2
+2022-07-28 18:04:40 [ INFO ] Getting results from remote host...
+2022-07-28 18:05:03 [ INFO ] Done.
+2022-07-28 18:05:09 [ INFO ] Synchronizing local project to remote host...
+2022-07-28 18:05:23 [ INFO ] Done.
+2022-07-28 18:05:23 [ INFO ] Execution command: export LANG=C && export DDK_PATH=/usr/local/Ascend/ascend-toolkit/5.1.RC1/x86_64-linux && export NPU_HOST_LIB=/usr/local/Ascend/ascend-toolkit/5.1.RC1/x86_64-linux/runtime/lib64/stub && export MX_SDK_HOME=/usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1 && export LD_LIBRARY_PATH=/usr/local/Ascend/ascend-toolkit/5.1.RC1/x86_64-linux/runtime/lib64/stub:${LD_LIBRARY_PATH} && mkdir -p /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/build/cmake-build-ascend-x86_64-linux-release  && cd /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/build/cmake-build-ascend-x86_64-linux-release && /usr/bin/cmake -DCMAKE_BUILD_TYPE=RELEASE -DCMAKE_MAKE_PROGRAM=/usr/bin/make -DCMAKE_C_COMPILER=gcc -DCMAKE_CXX_COMPILER=g++ -DCMAKE_BUILD_TYPE=Release -G "Unix Makefiles" /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/ && /usr/bin/cmake --build . --target all -- -j 9
+2022-07-28 18:05:26 [ INFO ] -- env MX_SDK_HOME: /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1
+2022-07-28 18:05:26 [ INFO ] -- Configuring done
+2022-07-28 18:05:26 [ INFO ] -- Generating done
+2022-07-28 18:05:26 [ INFO ] -- Build files have been written to: /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/build/cmake-build-ascend-x86_64-linux-release
+2022-07-28 18:05:26 [ INFO ] Scanning dependencies of target Resnet18_Mxbase
+2022-07-28 18:05:26 [ INFO ] [ 33%] Building CXX object src/CMakeFiles/Resnet18_Mxbase.dir/Resnet18Classify.cpp.o
+2022-07-28 18:05:28 [ INFO ] /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp: In member function 'APP_ERROR Resnet18Classify::Init(const InitParam&)':
+2022-07-28 18:05:28 [ WARN ] /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:70:29: warning: 'virtual APP_ERROR MxBase::Resnet50PostProcess::Init(const std::map<std::basic_string<char>, std::shared_ptr<void> >&)' is deprecated: Use '' instead [-Wdeprecated-declarations]
+2022-07-28 18:05:28 [ INFO ]      ret = post_->Init(config);
+2022-07-28 18:05:28 [ INFO ]                              ^
+2022-07-28 18:05:28 [ INFO ] In file included from /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.h:25:0,
+2022-07-28 18:05:28 [ INFO ]                  from /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/src/Resnet18Classify.cpp:24:
+2022-07-28 18:05:28 [ INFO ] /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1/include/MxBase/postprocess/include/ClassPostProcessors/Resnet50PostProcess.h:24:36: note: declared here
+2022-07-28 18:05:28 [ INFO ]      SDK_DEPRECATED_FOR() APP_ERROR Init(const std::map<std::string, std::shared_ptr<void>> &postConfig) override;
+2022-07-28 18:05:28 [ INFO ]                                     ^~~~
+2022-07-28 18:05:30 [ INFO ] [ 66%] Linking CXX executable ../../../out/Resnet18_Mxbase
+2022-07-28 18:05:30 [ INFO ] [100%] Built target Resnet18_Mxbase
+2022-07-28 18:05:30 [ INFO ] Getting results from remote host...
+2022-07-28 18:05:54 [ INFO ] Done.
+2022-07-29 10:44:14 [ INFO ] Synchronizing local project to remote host...
+2022-07-29 10:44:30 [ INFO ] Done.
+2022-07-29 10:44:30 [ INFO ] Execution command: export LANG=C && export DDK_PATH=/usr/local/Ascend/ascend-toolkit/5.1.RC1/x86_64-linux && export NPU_HOST_LIB=/usr/local/Ascend/ascend-toolkit/5.1.RC1/x86_64-linux/runtime/lib64/stub && export MX_SDK_HOME=/usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1 && export LD_LIBRARY_PATH=/usr/local/Ascend/ascend-toolkit/5.1.RC1/x86_64-linux/runtime/lib64/stub:${LD_LIBRARY_PATH} && mkdir -p /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/build/cmake-build-ascend-x86_64-linux-release  && cd /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/build/cmake-build-ascend-x86_64-linux-release && /usr/bin/cmake -DCMAKE_BUILD_TYPE=RELEASE -DCMAKE_MAKE_PROGRAM=/usr/bin/make -DCMAKE_C_COMPILER=gcc -DCMAKE_CXX_COMPILER=g++ -DCMAKE_BUILD_TYPE=Release -G "Unix Makefiles" /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/ && /usr/bin/cmake --build . --target all -- -j 9
+2022-07-29 10:44:32 [ INFO ] -- env MX_SDK_HOME: /usr/local/Ascend/mindx_sdk/mxVision_3.0.RC1/linux-x86_64/mxVision-3.0.RC1
+2022-07-29 10:44:32 [ INFO ] -- Configuring done
+2022-07-29 10:44:32 [ INFO ] -- Generating done
+2022-07-29 10:44:32 [ INFO ] -- Build files have been written to: /tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/build/cmake-build-ascend-x86_64-linux-release
+2022-07-29 10:44:32 [ INFO ] [100%] Built target Resnet18_Mxbase
+2022-07-29 10:44:32 [ INFO ] Getting results from remote host...
+2022-07-29 10:44:58 [ INFO ] Done.

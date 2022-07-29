@@ -1,0 +1,11 @@
+D:/Codes/python/Ascend/Resnet18_Mxbase/build/cmake/CMakeFiles/edit_cache.dir
+D:/Codes/python/Ascend/Resnet18_Mxbase/build/cmake/CMakeFiles/rebuild_cache.dir
+D:/Codes/python/Ascend/Resnet18_Mxbase/build/cmake/CMakeFiles/list_install_components.dir
+D:/Codes/python/Ascend/Resnet18_Mxbase/build/cmake/CMakeFiles/install.dir
+D:/Codes/python/Ascend/Resnet18_Mxbase/build/cmake/CMakeFiles/install/local.dir
+D:/Codes/python/Ascend/Resnet18_Mxbase/build/cmake/src/CMakeFiles/Resnet18_Mxbase.dir
+D:/Codes/python/Ascend/Resnet18_Mxbase/build/cmake/src/CMakeFiles/edit_cache.dir
+D:/Codes/python/Ascend/Resnet18_Mxbase/build/cmake/src/CMakeFiles/rebuild_cache.dir
+D:/Codes/python/Ascend/Resnet18_Mxbase/build/cmake/src/CMakeFiles/list_install_components.dir
+D:/Codes/python/Ascend/Resnet18_Mxbase/build/cmake/src/CMakeFiles/install.dir
+D:/Codes/python/Ascend/Resnet18_Mxbase/build/cmake/src/CMakeFiles/install/local.dir

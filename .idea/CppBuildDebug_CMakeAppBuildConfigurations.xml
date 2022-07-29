@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CppBuildDebug_CppBuildConfigurations">
+    <option name="cppBuildConfigurations">
+      <list>
+        <CppBuildConfiguration>
+          <option name="buildOptions" value="-- -j 9" />
+          <option name="buildType" value="Release" />
+          <option name="cmakeOptions" value="-DCMAKE_BUILD_TYPE=Release" />
+          <option name="name" value="Release" />
+          <option name="selected" value="true" />
+          <option name="toolchainName" value="ascend-x86_64-linux" />
+          <option name="toolchainUuid" value="89f0c9dc-c59e-4f0a-adb3-daf59537c3d8" />
+        </CppBuildConfiguration>
+      </list>
+    </option>
+    <option name="select" value="Release" />
+  </component>
+</project>

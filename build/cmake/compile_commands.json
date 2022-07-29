@@ -1,0 +1,12 @@
+[
+{
+  "directory": "D:/Codes/python/Ascend/Resnet18_Mxbase/build/cmake",
+  "command": "D:\\Language\\mingw-w64\\x86_64-8.1.0-win32-seh-rt_v6-rev0\\mingw64\\bin\\c++.exe -DENABLE_DVPP_INTERFACE -D_GLIBCXX_USE_CXX11_ABI=0 -Dgoogle=mindxsdk_private  --target=x86_64-pc-windows-gnu -I/lib/modelpostprocessors -I///acllib/include -I/opensource/include -I/opensource/include/opencv4 -I/include -I/include/MxBase/postprocess/include -std=c++11 -fPIE -fstack-protector-all -fPIC -Wall -o src\\CMakeFiles\\Resnet18_Mxbase.dir\\main.cpp.obj -c D:\\Codes\\python\\Ascend\\Resnet18_Mxbase\\src\\main.cpp",
+  "file": "D:\\Codes\\python\\Ascend\\Resnet18_Mxbase\\src\\main.cpp"
+},
+{
+  "directory": "D:/Codes/python/Ascend/Resnet18_Mxbase/build/cmake",
+  "command": "D:\\Language\\mingw-w64\\x86_64-8.1.0-win32-seh-rt_v6-rev0\\mingw64\\bin\\c++.exe -DENABLE_DVPP_INTERFACE -D_GLIBCXX_USE_CXX11_ABI=0 -Dgoogle=mindxsdk_private  --target=x86_64-pc-windows-gnu -I/lib/modelpostprocessors -I///acllib/include -I/opensource/include -I/opensource/include/opencv4 -I/include -I/include/MxBase/postprocess/include -std=c++11 -fPIE -fstack-protector-all -fPIC -Wall -o src\\CMakeFiles\\Resnet18_Mxbase.dir\\Resnet18Classify.cpp.obj -c D:\\Codes\\python\\Ascend\\Resnet18_Mxbase\\src\\Resnet18Classify.cpp",
+  "file": "D:\\Codes\\python\\Ascend\\Resnet18_Mxbase\\src\\Resnet18Classify.cpp"
+}
+]

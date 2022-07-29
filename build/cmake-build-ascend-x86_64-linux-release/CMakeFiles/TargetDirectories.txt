@@ -1,0 +1,13 @@
+/tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/build/cmake-build-ascend-x86_64-linux-release/CMakeFiles/install/strip.dir
+/tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/build/cmake-build-ascend-x86_64-linux-release/CMakeFiles/install.dir
+/tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/build/cmake-build-ascend-x86_64-linux-release/CMakeFiles/install/local.dir
+/tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/build/cmake-build-ascend-x86_64-linux-release/CMakeFiles/list_install_components.dir
+/tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/build/cmake-build-ascend-x86_64-linux-release/CMakeFiles/edit_cache.dir
+/tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/build/cmake-build-ascend-x86_64-linux-release/CMakeFiles/rebuild_cache.dir
+/tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/build/cmake-build-ascend-x86_64-linux-release/src/CMakeFiles/install/strip.dir
+/tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/build/cmake-build-ascend-x86_64-linux-release/src/CMakeFiles/edit_cache.dir
+/tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/build/cmake-build-ascend-x86_64-linux-release/src/CMakeFiles/Resnet18_Mxbase.dir
+/tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/build/cmake-build-ascend-x86_64-linux-release/src/CMakeFiles/rebuild_cache.dir
+/tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/build/cmake-build-ascend-x86_64-linux-release/src/CMakeFiles/list_install_components.dir
+/tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/build/cmake-build-ascend-x86_64-linux-release/src/CMakeFiles/install/local.dir
+/tmp/34789ce5-f372-4d30-9de7-22d067fa13e3/build/cmake-build-ascend-x86_64-linux-release/src/CMakeFiles/install.dir
